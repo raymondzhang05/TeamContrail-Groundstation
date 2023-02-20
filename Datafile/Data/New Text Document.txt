@@ -1,0 +1,1998 @@
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:6424/zcheesehead
+----------
+,-12,15
++RCV=0,12,345678, BME680:22.82;997.36;31.06;38.88;133.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:7598/zcheesehead
+----------
+,15,-19
++RCV=34,129, BME680:22.82;997.36;31.06;38.88;139.14/z
+VEML6075:14.56;25.40;0.02/z
+MPU9250(Acceleration):0.00;0.00;1.00/z
+MPU9250(Gyroscope):-0.05;0.08;0.00/z
+MPU9250(Magnetometer):23.38;3.97;20.53/z
+Coordinates:43.8828;-79.4403/z
+Time:9598/zcheesehead
+----------
+,34,-98

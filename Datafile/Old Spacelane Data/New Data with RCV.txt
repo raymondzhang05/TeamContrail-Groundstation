@@ -1,0 +1,24 @@
++RCV=0,12,345678: BME680:22.82;997.36;31.06;38.88;133.14/zcheesehead
++RCV=0,12,345678: VEML6075:14.56;25.40;0.02/zcheesehead
++RCV=0,12,345678: MPU9250(Acceleration):0.00;0.00;1.00/zcheesehead
++RCV=0,12,345678: MPU9250(Gyroscope):-0.05;0.08;0.00/zcheesehead
++RCV=0,12,345678: MPU9250(Magnetometer):23.38;3.97;20.53/zcheesehead
++RCV=0,12,345678: Coordinates:43.8828;-79.4403/zcheesehead
++RCV=0,12,345678: Time:6424/zcheesehead
+----------
++RCV=0,12,345678: BME680:22.82;997.36;31.06;38.88;133.14/zcheesehead
++RCV=0,12,345678: VEML6075:14.56;25.40;0.02/zcheesehead
++RCV=0,12,345678: MPU9250(Acceleration):0.00;0.00;1.00/zcheesehead
++RCV=0,12,345678: MPU9250(Gyroscope):-0.05;0.08;0.00/zcheesehead
++RCV=0,12,345678: MPU9250(Magnetometer):23.38;3.97;20.53/zcheesehead
++RCV=0,12,345678: Coordinates:43.8828;-79.4403/zcheesehead
++RCV=0,12,345678: Time:7598/zcheesehead
+----------
++RCV=0,12,345678: BME680:22.82;997.36;31.06;38.88;139.14/zcheesehead
++RCV=0,12,345678: VEML6075:14.56;25.40;0.02/zcheesehead
++RCV=0,12,345678: MPU9250(Acceleration):0.00;0.00;1.00/zcheesehead
++RCV=0,12,345678: MPU9250(Gyroscope):-0.05;0.08;0.00/zcheesehead
++RCV=0,12,345678: MPU9250(Magnetometer):23.38;3.97;20.53/zcheesehead
++RCV=0,12,345678: Coordinates:43.8828;-79.4403/zcheesehead
++RCV=0,12,345678: Time:9598/zcheesehead
+----------
