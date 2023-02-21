@@ -106,7 +106,6 @@ namespace SpaceLane
             chart_CO.ChartAreas[0].AxisY.ScaleView.Zoomable = true;
             chart_CO.MouseWheel += chart_CO_MouseWheel;
 
-
             try
             {
                 System.Net.IPHostEntry e = System.Net.Dns.GetHostEntry("www.google.ca");
@@ -127,6 +126,13 @@ namespace SpaceLane
             // mapControl.MouseLeftButtonDown += new MouseButtonEventHandler(mapControl_MouseLeftButtonDown);
         }
 
+        private void formMain_V2_Shown(object sender, EventArgs e)
+        {
+            string message = "This software is used with Team Contrail's CanSat to aid firefighters during wildfires. To analyze a .txt file, click open file and select the file from the finder. To connect to the live data from the satellite, select a COM port and Baud rate, then click connect.";
+            string title = "Welcome to Team Contrail Groundstation Software";
+            MessageBoxButtons buttons = MessageBoxButtons.OK;
+            DialogResult result = MessageBox.Show(message, title, buttons, MessageBoxIcon.Warning);
+        }
 
         #region UI Event Handler
         private void btnOpenFile_Click(object sender, EventArgs e)
@@ -171,7 +177,7 @@ namespace SpaceLane
             }
         }
 
-        private void buttonLoadPositionn_Click(object sender, EventArgs e)
+        private void buttonLoadPosition_Click(object sender, EventArgs e)
         {
             try
             {
