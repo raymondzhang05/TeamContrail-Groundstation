@@ -1,17 +1,17 @@
 +RCV=0,12,345678: BME680:22.82;997.36;31.06;38.88;133.14/zcheesehead
-+RCV=0,12,345678: SGP30:412/zcheesehead
++RCV=0,12,345678: SGP30:412;0.5/zcheesehead
 +RCV=0,12,345678: MQ:0.1/zcheesehead
 +RCV=0,12,345678: Coordinates:43.8828;-79.4403/zcheesehead
 +RCV=0,12,345678: Time:6424/zcheesehead
 ----------
 +RCV=0,12,345678: BME680:22.82;997.36;31.06;38.88;133.14/zcheesehead
-+RCV=0,12,345678: SGP30:412/zcheesehead
++RCV=0,12,345678: SGP30:412;0.5/zcheesehead
 +RCV=0,12,345678: MQ:0.1/zcheesehead
 +RCV=0,12,345678: Coordinates:43.8828;-79.4403/zcheesehead
 +RCV=0,12,345678: Time:7598/zcheesehead
 ----------
-+RCV=0,12,345678: BME680:22.82;997.36;31.06;38.88;133.14/zcheesehead
-+RCV=0,12,345678: SGP30:412/zcheesehead
++RCV=0,12,345678: BME680:22.82;997.36;31.06;38.88;139.14/zcheesehead
++RCV=0,12,345678: SGP30:412;0.5/zcheesehead
 +RCV=0,12,345678: MQ:0.1/zcheesehead
 +RCV=0,12,345678: Coordinates:43.8828;-79.4403/zcheesehead
 +RCV=0,12,345678: Time:9598/zcheesehead

@@ -24,9 +24,8 @@ namespace SpaceLane
 {
     public partial class formMain_V2 : Form
     {
-
         #region Variables Declarations 
-        
+
         public static SerialPort serialPort = new SerialPort();
         static bool serialConnectionState = false;
 
@@ -62,7 +61,7 @@ namespace SpaceLane
         private delegate void UpdateProgressDelegate(int value);
 
         private delegate void DrawHeatmapDelegate(string txt);
-        
+
 
         #endregion
 
@@ -95,19 +94,19 @@ namespace SpaceLane
             chart_Gas.ChartAreas[0].AxisY.ScaleView.Zoomable = true;
             chart_Gas.MouseWheel += chart_Gas_MouseWheel;
 
-            chart_UVA.ChartAreas[0].AxisX.ScaleView.Zoomable = true;
-            chart_UVA.ChartAreas[0].AxisY.ScaleView.Zoomable = true;
-            chart_UVA.MouseWheel += chart_UVA_MouseWheel;
+            chart_CO2.ChartAreas[0].AxisX.ScaleView.Zoomable = true;
+            chart_CO2.ChartAreas[0].AxisY.ScaleView.Zoomable = true;
+            chart_CO2.MouseWheel += chart_CO2_MouseWheel;
 
-            chart_UVB.ChartAreas[0].AxisX.ScaleView.Zoomable = true;
-            chart_UVB.ChartAreas[0].AxisY.ScaleView.Zoomable = true;
-            chart_UVB.MouseWheel += chart_UVB_MouseWheel;
+            chart_TVOC.ChartAreas[0].AxisX.ScaleView.Zoomable = true;
+            chart_TVOC.ChartAreas[0].AxisY.ScaleView.Zoomable = true;
+            chart_TVOC.MouseWheel += chart_TVOC_MouseWheel;
 
-            chart_UVIndex.ChartAreas[0].AxisX.ScaleView.Zoomable = true;
-            chart_UVIndex.ChartAreas[0].AxisY.ScaleView.Zoomable = true;
-            chart_UVIndex.MouseWheel += chart_UVIndex_MouseWheel;
+            chart_CO.ChartAreas[0].AxisX.ScaleView.Zoomable = true;
+            chart_CO.ChartAreas[0].AxisY.ScaleView.Zoomable = true;
+            chart_CO.MouseWheel += chart_CO_MouseWheel;
 
-           
+
             try
             {
                 System.Net.IPHostEntry e = System.Net.Dns.GetHostEntry("www.google.ca");
@@ -145,7 +144,7 @@ namespace SpaceLane
 
                     //reset the status
                     if (ReadFileThread != null)
-                    {                      
+                    {
                         ReadFileThread.Abort();
                         ReadFileThread = null;
 
@@ -167,7 +166,7 @@ namespace SpaceLane
                         AddToMonitor("started reading file");
                         //btnGraph.Text = "Stop";
                     }
-                    
+
                 }
             }
         }
@@ -533,23 +532,23 @@ namespace SpaceLane
             catch { }
         }
 
-        private void chart_UVA_MouseEnter(object sender, EventArgs e)
+        private void chart_CO2_MouseEnter(object sender, EventArgs e)
         {
-            if (!chart_UVA.Focused)
-                chart_UVA.Focus();
+            if (!chart_CO2.Focused)
+                chart_CO2.Focus();
         }
 
-        private void chart_UVA_MouseLeave(object sender, EventArgs e)
+        private void chart_CO2_MouseLeave(object sender, EventArgs e)
         {
-            if (chart_UVA.Focused)
-                chart_UVA.Parent.Focus();
+            if (chart_CO2.Focused)
+                chart_CO2.Parent.Focus();
         }
 
-        private void chart_UVA_MouseWheel(object sender, MouseEventArgs e)
+        private void chart_CO2_MouseWheel(object sender, MouseEventArgs e)
         {
             try
             {
-                Axis xAxis = chart_UVA.ChartAreas[0].AxisX;
+                Axis xAxis = chart_CO2.ChartAreas[0].AxisX;
                 double xMin = xAxis.ScaleView.ViewMinimum;
                 double xMax = xAxis.ScaleView.ViewMaximum;
                 double xPixelPos = xAxis.PixelPositionToValue(e.Location.X);
@@ -581,23 +580,23 @@ namespace SpaceLane
             catch { }
         }
 
-        private void chart_UVB_MouseEnter(object sender, EventArgs e)
+        private void chart_TVOC_MouseEnter(object sender, EventArgs e)
         {
-            if (!chart_UVB.Focused)
-                chart_UVB.Focus();
+            if (!chart_TVOC.Focused)
+                chart_TVOC.Focus();
         }
 
-        private void chart_UVB_MouseLeave(object sender, EventArgs e)
+        private void chart_TVOC_MouseLeave(object sender, EventArgs e)
         {
-            if (chart_UVB.Focused)
-                chart_UVB.Parent.Focus();
+            if (chart_TVOC.Focused)
+                chart_TVOC.Parent.Focus();
         }
 
-        private void chart_UVB_MouseWheel(object sender, MouseEventArgs e)
+        private void chart_TVOC_MouseWheel(object sender, MouseEventArgs e)
         {
             try
             {
-                Axis xAxis = chart_UVB.ChartAreas[0].AxisX;
+                Axis xAxis = chart_TVOC.ChartAreas[0].AxisX;
                 double xMin = xAxis.ScaleView.ViewMinimum;
                 double xMax = xAxis.ScaleView.ViewMaximum;
                 double xPixelPos = xAxis.PixelPositionToValue(e.Location.X);
@@ -629,23 +628,23 @@ namespace SpaceLane
             catch { }
         }
 
-        private void chart_UVIndex_MouseEnter(object sender, EventArgs e)
+        private void chart_CO_MouseEnter(object sender, EventArgs e)
         {
-            if (!chart_UVIndex.Focused)
-                chart_UVIndex.Focus();
+            if (!chart_CO.Focused)
+                chart_CO.Focus();
         }
 
-        private void chart_UVIndex_MouseLeave(object sender, EventArgs e)
+        private void chart_CO_MouseLeave(object sender, EventArgs e)
         {
-            if (chart_UVIndex.Focused)
-                chart_UVIndex.Parent.Focus();
+            if (chart_CO.Focused)
+                chart_CO.Parent.Focus();
         }
 
-        private void chart_UVIndex_MouseWheel(object sender, MouseEventArgs e)
+        private void chart_CO_MouseWheel(object sender, MouseEventArgs e)
         {
             try
             {
-                Axis xAxis = chart_UVIndex.ChartAreas[0].AxisX;
+                Axis xAxis = chart_CO.ChartAreas[0].AxisX;
                 double xMin = xAxis.ScaleView.ViewMinimum;
                 double xMax = xAxis.ScaleView.ViewMaximum;
                 double xPixelPos = xAxis.PixelPositionToValue(e.Location.X);
@@ -693,7 +692,7 @@ namespace SpaceLane
         {
             try
             {
-               
+
             }
             catch { }
         }
@@ -716,7 +715,7 @@ namespace SpaceLane
             }
             else
             {
-                mapControl.DragButton = MouseButtons.None;                
+                mapControl.DragButton = MouseButtons.None;
             }
         }
 
@@ -736,7 +735,7 @@ namespace SpaceLane
                 cbPortSelect.Items.Add(_string);
                 cbPortSelect.Text = _string;
             }
-        }       
+        }
 
 
         private void SetText(string text)
@@ -765,8 +764,20 @@ namespace SpaceLane
 
             txt = serialPort.ReadLine().ToString();
             SetText(txt.ToString() + "\n\r");
-            
-            DataPack dp = null;           
+
+            try
+            {
+                StreamWriter fileLogger = new StreamWriter("C:/Users/raymo/Downloads/log.txt");
+                fileLogger.WriteLine(txt);
+                fileLogger.Flush();
+                fileLogger.Close();
+            }
+            catch (Exception)
+            {
+
+            }
+
+            DataPack dp = null;
 
             if (!txt.StartsWith("-----"))
             {
@@ -781,13 +792,14 @@ namespace SpaceLane
                     PlotValue(dp);
 
                     //show the location on the map
-                    PlotMap(dp.Latitude, dp.Longitude);                   
+                    PlotMap(dp.Latitude, dp.Longitude);
 
                     //Generate the Heatmap if dp.HeatValues is not empty
                     if (!string.IsNullOrEmpty(dp.HeatValues))
                         DrawHeatmap(dp.HeatValues);
 
                     dpList.Add(dp);
+
                     portPacketLines.Clear();
                 }
                 catch (Exception e1)
@@ -800,7 +812,7 @@ namespace SpaceLane
 
         }
 
-              
+
 
         // Read the file
         private void ReadFile()
@@ -832,7 +844,7 @@ namespace SpaceLane
                             PlotValue(dp);
 
                             //show the location on the map
-                            PlotMap(dp.Latitude, dp.Longitude);                            
+                            PlotMap(dp.Latitude, dp.Longitude);
 
                             //Generate the Heatmap if dp.HeatValues is not empty
                             if (!string.IsNullOrEmpty(dp.HeatValues))
@@ -851,7 +863,7 @@ namespace SpaceLane
                 }
 
                 UpdateProgress(100);
-                
+
                 UpdateProgress(0);
 
 
@@ -862,7 +874,7 @@ namespace SpaceLane
                     ReadFileThread.Abort();
                     ReadFileThread = null;
                 }
-                catch (Exception ex )
+                catch (Exception ex)
                 {
                     ReadFileThread = null;
                 }
@@ -945,9 +957,9 @@ namespace SpaceLane
             tbVelocity.Text = String.Format("{0:0.##}", dp.Velocity);
             tbLattitude.Text = dp.Latitude.ToString();
             tbLongitude.Text = dp.Longitude.ToString();
-            tbUVA.Text = dp.Uva.ToString();
-            tbUVB.Text = dp.Uvb.ToString();
-            tbUVIndex.Text = dp.UvIndex.ToString();
+            tbCO2.Text = dp.CO2.ToString();
+            tbTVOC.Text = dp.TVOC.ToString();
+            tbCO.Text = dp.CO.ToString();
 
 
 
@@ -993,7 +1005,7 @@ namespace SpaceLane
             {
 
             }
-            
+
 
             //chart_Altitude 
             try
@@ -1083,75 +1095,66 @@ namespace SpaceLane
 
             }
 
-            //chart_UVA
+            //chart_CO2
             try
             {
-                Series UVASerie = chart_UVA.Series[0];
-                UVASerie.Points.AddXY(Math.Round(dp.TimeInMills / 1000, 2), dp.Uva);
+                Series CO2Serie = chart_CO2.Series[0];
+                CO2Serie.Points.AddXY(Math.Round(dp.TimeInMills / 1000, 2), dp.CO2);
 
-                if (dp.Uva > Constants.UVAMax)
-                    Constants.UVAMax = (float)(dp.Uva * 1.5);
+                if (dp.CO2 > Constants.CO2Max)
+                    Constants.CO2Max = (float)(dp.CO2 * 1.5);
 
-                if (dp.Uva < Constants.GasMin)
-                    Constants.GasMin = (float)(dp.Uva * 0.5);
+                if (dp.CO2 < Constants.GasMin)
+                    Constants.GasMin = (float)(dp.CO2 * 0.5);
 
-                chart_UVA.ChartAreas[0].AxisY.Maximum = Constants.UVAMax;
-                chart_UVA.ChartAreas[0].AxisY.Minimum = Constants.UVAMin;
+                chart_CO2.ChartAreas[0].AxisY.Maximum = Constants.CO2Max;
+                chart_CO2.ChartAreas[0].AxisY.Minimum = Constants.CO2Min;
 
-                chart_UVA.Update();
+                chart_CO2.Update();
             }
             catch
             {
 
             }
 
-            //chart_UVB
+            //chart_TVOC
             try
             {
-                Series UVBSerie = chart_UVB.Series[0];
-                UVBSerie.Points.AddXY(Math.Round(dp.TimeInMills / 1000, 2), dp.Uvb);
+                Series TVOCSerie = chart_TVOC.Series[0];
+                TVOCSerie.Points.AddXY(Math.Round(dp.TimeInMills / 1000, 2), dp.TVOC);
 
-                if (dp.Uvb > Constants.UVBMax)
-                    Constants.UVBMax = (float)(dp.Uvb * 1.5);
+                if (dp.TVOC > Constants.TVOCMax)
+                    Constants.TVOCMax = (float)(dp.TVOC * 1.5);
 
-                if (dp.Uvb < Constants.UVBMin)
-                    Constants.UVBMin = (float)(dp.Uvb * 0.5);
+                if (dp.TVOC < Constants.TVOCMin)
+                    Constants.TVOCMin = (float)(dp.TVOC * 0.5);
 
-                chart_UVB.ChartAreas[0].AxisY.Maximum = Constants.UVBMax;
-                chart_UVB.ChartAreas[0].AxisY.Minimum = Constants.UVBMin;
+                chart_TVOC.ChartAreas[0].AxisY.Maximum = Constants.TVOCMax;
+                chart_TVOC.ChartAreas[0].AxisY.Minimum = Constants.TVOCMin;
 
-                chart_UVB.Update();
+                chart_TVOC.Update();
             }
             catch
             {
 
             }
 
-            //chart_UVIndex
+            //chart_CO
             try
             {
-                Series UVIndexSerie = chart_UVIndex.Series[0];
-                UVIndexSerie.Points.AddXY(Math.Round(dp.TimeInMills / 1000, 2), dp.UvIndex);
+                Series COSerie = chart_CO.Series[0];
+                COSerie.Points.AddXY(Math.Round(dp.TimeInMills / 1000, 2), dp.CO);
 
-                if (dp.UvIndex > Constants.UVIndexMax)
-                    Constants.UVIndexMax = (float)(dp.UvIndex * 1.5);
+                if (dp.CO > Constants.COMax)
+                    Constants.COMax = (float)(dp.CO * 1.5);
 
-                if (dp.UvIndex < Constants.UVIndexMin)
-                {
-                    if (dp.UvIndex < 0)
-                    {
-                        Constants.UVIndexMin = (float)(dp.UvIndex * 1.1);
-                    }
-                    else
-                    {
-                        Constants.UVIndexMin = (float)(dp.UvIndex * 0.9);
-                    }
-                }
+                if (dp.CO < Constants.COMin)
+                    Constants.COMin = (float)(dp.CO * 0.5);
 
-                chart_UVIndex.ChartAreas[0].AxisY.Maximum = Constants.UVIndexMax;
-                chart_UVIndex.ChartAreas[0].AxisY.Minimum = Constants.UVIndexMin;
+                chart_CO.ChartAreas[0].AxisY.Maximum = Constants.COMax;
+                chart_CO.ChartAreas[0].AxisY.Minimum = Constants.COMin;
 
-                chart_UVIndex.Update();
+                chart_CO.Update();
             }
             catch
             {
@@ -1193,7 +1196,7 @@ namespace SpaceLane
 
         private static Color HeatMapColor(decimal value, decimal min, decimal max)
         {
-            float correctionFactor = (float)((value - min) / (max - min));          
+            float correctionFactor = (float)((value - min) / (max - min));
 
             List<Color> baseColors = new List<Color>();  // create a color list
 
@@ -1240,7 +1243,7 @@ namespace SpaceLane
             int height = 24;
 
             Bitmap bmp = new Bitmap(width, height);
-        
+
             if (strValue.EndsWith(","))
                 strValue = strValue.Substring(0, strValue.Length - 1);
 
@@ -1254,7 +1257,7 @@ namespace SpaceLane
                 valueArr = Array.ConvertAll<string, decimal>(tempArr, Convert.ToDecimal);
 
                 decimal maxValue = valueArr.Max();
-                decimal minValue = valueArr.Min();            
+                decimal minValue = valueArr.Min();
 
                 for (int y = 0; y < height; y++)
                 {
@@ -1263,20 +1266,20 @@ namespace SpaceLane
                         int i = ((y * width) + x);
 
                         float correctionFactor = (float)((valueArr[i] - minValue) / (maxValue - minValue));
-                        int color = Decimal.ToInt16((decimal)(correctionFactor * 255));                   
+                        int color = Decimal.ToInt16((decimal)(correctionFactor * 255));
 
-                        bmp.SetPixel(x, y, HeatMapColor(valueArr[i], minValue, maxValue));                       
+                        bmp.SetPixel(x, y, HeatMapColor(valueArr[i], minValue, maxValue));
                     }
                 }
 
                 //adjust brightness/contrast etc.
                 Bitmap originalImage = bmp;
                 Bitmap adjustedImage = bmp;
-                float brightness = 1.01f; 
-                float contrast = 1.1f; 
-                float gamma = 1.0f; 
+                float brightness = 1.01f;
+                float contrast = 1.1f;
+                float gamma = 1.0f;
 
-                float adjustedBrightness = brightness - 1.0f;           
+                float adjustedBrightness = brightness - 1.0f;
                 float[][] ptsArray ={
                     new float[] {contrast, 0, 0, 0, 0}, // scale red
                     new float[] {0, contrast, 0, 0, 0}, // scale green
@@ -1363,7 +1366,7 @@ namespace SpaceLane
             this.richTextBoxSerialMonitor.ScrollToCaret();
         }
 
-               
+
 
         // Add a status string to txtStatus.
         private void UpdateProgress(int value)
@@ -1399,9 +1402,9 @@ namespace SpaceLane
             chart_Humidity.Series[0].Points.Clear();
             chart_Gas.Series[0].Points.Clear();
             chart_Velocity.Series[0].Points.Clear();
-            chart_UVA.Series[0].Points.Clear();
-            chart_UVB.Series[0].Points.Clear();
-            chart_UVIndex.Series[0].Points.Clear();
+            chart_CO2.Series[0].Points.Clear();
+            chart_TVOC.Series[0].Points.Clear();
+            chart_CO.Series[0].Points.Clear();
         }
 
         #endregion
@@ -1413,7 +1416,7 @@ namespace SpaceLane
                 case "Altitude":
                     return dp.Altitude;
                 case "Velocity":
-                        return dp.Velocity;
+                    return dp.Velocity;
                 case "Pressure":
                     return dp.Pressure;
                 case "Temperature":
@@ -1422,13 +1425,13 @@ namespace SpaceLane
                     return dp.Humidity;
                 case "Gas":
                     return dp.GasResistance;
-                case "UVA":
-                    return dp.Uva;
-                case "UVB":
-                    return dp.Uvb;
-                case "UVIndex":
-                    return dp.UvIndex;
-                
+                case "CO2":
+                    return dp.CO2;
+                case "TVOC":
+                    return dp.TVOC;
+                case "CO":
+                    return dp.CO;
+
                 default: return 0f;
             }
         }
@@ -1467,19 +1470,19 @@ namespace SpaceLane
                     sourceChart.ChartAreas[0].AxisY2.Minimum = Constants.GasMin;
                     break;
 
-                case "UVA":
-                    sourceChart.ChartAreas[0].AxisY2.Maximum = Constants.UVAMax;
-                    sourceChart.ChartAreas[0].AxisY2.Minimum = Constants.UVAMin;
+                case "CO2":
+                    sourceChart.ChartAreas[0].AxisY2.Maximum = Constants.CO2Max;
+                    sourceChart.ChartAreas[0].AxisY2.Minimum = Constants.CO2Min;
                     break;
 
-                case "UVB":
-                    sourceChart.ChartAreas[0].AxisY2.Maximum = Constants.UVBMax;
-                    sourceChart.ChartAreas[0].AxisY2.Minimum = Constants.UVAMin;
+                case "TVOC":
+                    sourceChart.ChartAreas[0].AxisY2.Maximum = Constants.TVOCMax;
+                    sourceChart.ChartAreas[0].AxisY2.Minimum = Constants.TVOCMin;
                     break;
 
-                case "UVIndex":
-                    sourceChart.ChartAreas[0].AxisY2.Maximum = Constants.UVIndexMax;
-                    sourceChart.ChartAreas[0].AxisY2.Minimum = Constants.UVIndexMin;
+                case "CO":
+                    sourceChart.ChartAreas[0].AxisY2.Maximum = Constants.COMax;
+                    sourceChart.ChartAreas[0].AxisY2.Minimum = Constants.COMin;
                     break;
 
                 case "Acceleration":
@@ -1490,7 +1493,7 @@ namespace SpaceLane
             }
         }
 
-        
+
 
         private Chart GetSourceChart(String selectedTab)
         {
@@ -1520,19 +1523,19 @@ namespace SpaceLane
             {
                 sourceChart = chart_Gas;
             }
-            else if (selectedTab.Equals("UVA"))
+            else if (selectedTab.Equals("CO2"))
             {
-                sourceChart = chart_UVA;
+                sourceChart = chart_CO2;
             }
-            else if (selectedTab.Equals("UVB"))
+            else if (selectedTab.Equals("TVOC"))
             {
-                sourceChart = chart_UVB;
+                sourceChart = chart_TVOC;
             }
-            else if (selectedTab.Equals("UVIndex"))
+            else if (selectedTab.Equals("CO"))
             {
-                sourceChart = chart_UVIndex;
+                sourceChart = chart_CO;
             }
-            
+
             return sourceChart;
         }
 
@@ -1558,7 +1561,7 @@ namespace SpaceLane
             foreach (DataPack dp in dpList)
             {
                 float serialValue = GetDataPointValue(dp, serialName);
-                newSerial.Points.AddXY(Math.Round(dp.TimeInMills / 1000, 2), serialValue);                   
+                newSerial.Points.AddXY(Math.Round(dp.TimeInMills / 1000, 2), serialValue);
             }
 
             ChartArea ca = sourceChart.ChartAreas[0];
@@ -1574,7 +1577,7 @@ namespace SpaceLane
             //
             SetChartAxisY2Scale(sourceChart, serialName);
 
-            sourceChart.Update();   
+            sourceChart.Update();
         }
 
         private void tabControlCharts_SelectedIndexChanged(object sender, EventArgs e)
@@ -1605,7 +1608,7 @@ namespace SpaceLane
 
         private void mapControl_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
         {
-            
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -1631,7 +1634,7 @@ namespace SpaceLane
                     }
 
                     resetScreen();
-                    
+
 
 
                     toolStripStatusLabel.Text = fileName;

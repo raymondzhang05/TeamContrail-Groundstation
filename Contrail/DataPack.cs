@@ -17,7 +17,9 @@ namespace SpaceLane
 
         public float Velocity { get; set; }
 
-
+        public float CO2 { get; set; }
+        public float TVOC { get; set; }
+        public float CO { get; set; }
 
         public float Uva { get; set; }
         public float Uvb { get; set; }

@@ -34,11 +34,30 @@ namespace SpaceLane
                     int startIndex = packetLines[i].IndexOf("VEML6075:");
                     int endIndex = packetLines[i].IndexOf("/z");
                     String UvLine = packetLines[i].Substring(startIndex + "VEML6075:".Length, endIndex - startIndex - "VEML6075:".Length);
-                    
+
                     String[] uvArray = UvLine.Split(';');
                     dp.Uva = float.Parse(uvArray[0]);
                     dp.Uvb = float.Parse(uvArray[1]);
                     dp.UvIndex = float.Parse(uvArray[2]);
+                }
+                else if (packetLines[i].Contains("SGP30:"))
+                {
+                    int startIndex = packetLines[i].IndexOf("SGP30:");
+                    int endIndex = packetLines[i].IndexOf("/z");
+                    String SGPline = packetLines[i].Substring(startIndex + "SGP30:".Length, endIndex - startIndex - "SGP30:".Length);
+
+                    String[] SGPArray = SGPline.Split(';');
+                    dp.CO2 = float.Parse(SGPArray[0]);
+                    dp.TVOC = float.Parse(SGPArray[1]);
+                }
+                else if (packetLines[i].Contains("MQ:"))
+                {
+                    int startIndex = packetLines[i].IndexOf("MQ:");
+                    int endIndex = packetLines[i].IndexOf("/z");
+                    String MQline = packetLines[i].Substring(startIndex + "MQ:".Length, endIndex - startIndex - "MQ:".Length);
+
+                    String[] MQArray = MQline.Split(';');
+                    dp.CO = float.Parse(MQArray[0]);
                 }
                 else if (packetLines[i].Contains("MPU9250(Acceleration):"))
                 {
@@ -103,7 +122,7 @@ namespace SpaceLane
                 }
                 else
                 {
-                    
+
                 }
             }
 
@@ -152,11 +171,11 @@ namespace SpaceLane
 
             DataPack dp = new DataPack();
 
-            for (int i=0; i<packetLines.Count; i++)
+            for (int i = 0; i < packetLines.Count; i++)
             {
                 if (packetLines[i].StartsWith("BME680:"))
                 {
-                    String BmeLine = packetLines[i].Replace("BME680:", "").Replace("/z", "");                   
+                    String BmeLine = packetLines[i].Replace("BME680:", "").Replace("/z", "");
                     String[] bmeArray = BmeLine.Split(';');
                     dp.Temperature = float.Parse(bmeArray[0]);
                     dp.Pressure = float.Parse(bmeArray[1]);
@@ -171,6 +190,25 @@ namespace SpaceLane
                     dp.Uva = float.Parse(uvArray[0]);
                     dp.Uvb = float.Parse(uvArray[1]);
                     dp.UvIndex = float.Parse(uvArray[2]);
+                }
+                else if (packetLines[i].Contains("SGP30:"))
+                {
+                    int startIndex = packetLines[i].IndexOf("SGP30:");
+                    int endIndex = packetLines[i].IndexOf("/z");
+                    String SGPline = packetLines[i].Substring(startIndex + "SGP30:".Length, endIndex - startIndex - "SGP30:".Length);
+
+                    String[] SGPArray = SGPline.Split(';');
+                    dp.CO2 = float.Parse(SGPArray[0]);
+                    dp.TVOC = float.Parse(SGPArray[1]);
+                }
+                else if (packetLines[i].Contains("MQ:"))
+                {
+                    int startIndex = packetLines[i].IndexOf("MQ:");
+                    int endIndex = packetLines[i].IndexOf("/z");
+                    String MQline = packetLines[i].Substring(startIndex + "MQ:".Length, endIndex - startIndex - "MQ:".Length);
+
+                    String[] MQArray = MQline.Split(';');
+                    dp.CO = float.Parse(MQArray[0]);
                 }
                 else if (packetLines[i].StartsWith("MPU9250(Acceleration)"))
                 {
@@ -212,7 +250,7 @@ namespace SpaceLane
                     String TimeLine = packetLines[i];
                     dp.TimeInMills = float.Parse(TimeLine);
                 }
-            }          
+            }
 
             return dp;
         }
@@ -243,8 +281,8 @@ namespace SpaceLane
                 return dp;
             }
 
-            dp.Velocity = (dp.Altitude - previousDP.Altitude) * 1000 / (dp.TimeInMills - previousDP.TimeInMills);     
-                       
+            dp.Velocity = (dp.Altitude - previousDP.Altitude) * 1000 / (dp.TimeInMills - previousDP.TimeInMills);
+
 
             return dp;
         }
@@ -285,6 +323,25 @@ namespace SpaceLane
                     dp.AccelerationY = float.Parse(accelerationArray[1]);
                     dp.AccelerationZ = float.Parse(accelerationArray[2]);
                 }
+                else if (packetLines[i].Contains("SGP30:"))
+                {
+                    int startIndex = packetLines[i].IndexOf("SGP30:");
+                    int endIndex = packetLines[i].IndexOf("/z");
+                    String SGPline = packetLines[i].Substring(startIndex + "SGP30:".Length, endIndex - startIndex - "SGP30:".Length);
+
+                    String[] SGPArray = SGPline.Split(';');
+                    dp.CO2 = float.Parse(SGPArray[0]);
+                    dp.TVOC = float.Parse(SGPArray[1]);
+                }
+                else if (packetLines[i].Contains("MQ:"))
+                {
+                    int startIndex = packetLines[i].IndexOf("MQ:");
+                    int endIndex = packetLines[i].IndexOf("/z");
+                    String MQline = packetLines[i].Substring(startIndex + "MQ:".Length, endIndex - startIndex - "MQ:".Length);
+
+                    String[] MQArray = MQline.Split(';');
+                    dp.CO = float.Parse(MQArray[0]);
+                }
                 else if (packetLines[i].StartsWith("MPU9250(Gyroscope)"))
                 {
                     String GyroLine = packetLines[i].Replace("MPU9250(Gyroscope):", "").Replace("/z", "");
@@ -301,7 +358,7 @@ namespace SpaceLane
                     dp.MagnetoY = float.Parse(magnetoArray[1]);
                     dp.MagnetoZ = float.Parse(magnetoArray[2]);
                 }
-                
+
                 else if (packetLines[i].StartsWith("Coordinates"))
                 {
                     String CoordinatesLine = packetLines[i].Replace("Coordinates:", "").Replace("/z", "");
@@ -342,7 +399,7 @@ namespace SpaceLane
 
                 return dp;
             }
-          
+
 
             dp.TimeInMills = dp.TimeInMills + previousDP.TimeInMills;
 

@@ -26,14 +26,14 @@ namespace SpaceLane
         public static float VelocityMax = 5;
         public static float VelocityMin = 0f;
 
-        public static float UVAMax = 0;
-        public static float UVAMin = 0;
+        public static float CO2Max = 0;
+        public static float CO2Min = 0;
 
-        public static float UVBMax = 0;
-        public static float UVBMin = 0;
+        public static float TVOCMax = 0;
+        public static float TVOCMin = 0;
 
-        public static float UVIndexMax = 0;
-        public static float UVIndexMin = 0f;
+        public static float COMax = 0;
+        public static float COMin = 0f;
 
         public static float AccelerationMax = 0;
         public static float AccelerationMin = 0f;

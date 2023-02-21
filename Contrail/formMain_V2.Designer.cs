@@ -97,19 +97,19 @@ namespace SpaceLane
             this.chart_Humidity = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.tabPageGas = new System.Windows.Forms.TabPage();
             this.chart_Gas = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.tabPageUVA = new System.Windows.Forms.TabPage();
-            this.chart_UVA = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.tabPageUVB = new System.Windows.Forms.TabPage();
-            this.chart_UVB = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.tabPageUVIndex = new System.Windows.Forms.TabPage();
-            this.chart_UVIndex = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.tabPageCO2 = new System.Windows.Forms.TabPage();
+            this.chart_CO2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.tabPageTVOC = new System.Windows.Forms.TabPage();
+            this.chart_TVOC = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.tabPageCO = new System.Windows.Forms.TabPage();
+            this.chart_CO = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.richTextBoxSerialMonitor = new System.Windows.Forms.RichTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tbUVIndex = new System.Windows.Forms.TextBox();
-            this.tbUVB = new System.Windows.Forms.TextBox();
-            this.tbUVA = new System.Windows.Forms.TextBox();
+            this.tbCO = new System.Windows.Forms.TextBox();
+            this.tbTVOC = new System.Windows.Forms.TextBox();
+            this.tbCO2 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.tbBMETemperature = new System.Windows.Forms.TextBox();
@@ -156,12 +156,12 @@ namespace SpaceLane
             ((System.ComponentModel.ISupportInitialize)(this.chart_Humidity)).BeginInit();
             this.tabPageGas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart_Gas)).BeginInit();
-            this.tabPageUVA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_UVA)).BeginInit();
-            this.tabPageUVB.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_UVB)).BeginInit();
-            this.tabPageUVIndex.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_UVIndex)).BeginInit();
+            this.tabPageCO2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_CO2)).BeginInit();
+            this.tabPageTVOC.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_TVOC)).BeginInit();
+            this.tabPageCO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_CO)).BeginInit();
             this.panel2.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -468,7 +468,7 @@ namespace SpaceLane
             this.splitContainer1.Panel2.Controls.Add(this.groupBox2);
             this.splitContainer1.Panel2.Controls.Add(this.groupBox1);
             this.splitContainer1.Size = new System.Drawing.Size(1372, 591);
-            this.splitContainer1.SplitterDistance = 975;
+            this.splitContainer1.SplitterDistance = 979;
             this.splitContainer1.SplitterWidth = 2;
             this.splitContainer1.TabIndex = 2;
             // 
@@ -479,7 +479,7 @@ namespace SpaceLane
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(975, 369);
+            this.panel3.Size = new System.Drawing.Size(979, 369);
             this.panel3.TabIndex = 3;
             // 
             // tabControlCharts
@@ -490,16 +490,16 @@ namespace SpaceLane
             this.tabControlCharts.Controls.Add(this.tabPageTemperature);
             this.tabControlCharts.Controls.Add(this.tabPageHumidity);
             this.tabControlCharts.Controls.Add(this.tabPageGas);
-            this.tabControlCharts.Controls.Add(this.tabPageUVA);
-            this.tabControlCharts.Controls.Add(this.tabPageUVB);
-            this.tabControlCharts.Controls.Add(this.tabPageUVIndex);
+            this.tabControlCharts.Controls.Add(this.tabPageCO2);
+            this.tabControlCharts.Controls.Add(this.tabPageTVOC);
+            this.tabControlCharts.Controls.Add(this.tabPageCO);
             this.tabControlCharts.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControlCharts.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControlCharts.Location = new System.Drawing.Point(0, 0);
             this.tabControlCharts.Margin = new System.Windows.Forms.Padding(11, 2, 2, 2);
             this.tabControlCharts.Name = "tabControlCharts";
             this.tabControlCharts.SelectedIndex = 0;
-            this.tabControlCharts.Size = new System.Drawing.Size(975, 369);
+            this.tabControlCharts.Size = new System.Drawing.Size(979, 369);
             this.tabControlCharts.TabIndex = 22;
             this.tabControlCharts.SelectedIndexChanged += new System.EventHandler(this.tabControlCharts_SelectedIndexChanged);
             // 
@@ -509,7 +509,7 @@ namespace SpaceLane
             this.tabPageAltitude.Location = new System.Drawing.Point(4, 25);
             this.tabPageAltitude.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageAltitude.Name = "tabPageAltitude";
-            this.tabPageAltitude.Size = new System.Drawing.Size(967, 340);
+            this.tabPageAltitude.Size = new System.Drawing.Size(971, 340);
             this.tabPageAltitude.TabIndex = 2;
             this.tabPageAltitude.Text = "Altitude";
             this.tabPageAltitude.UseVisualStyleBackColor = true;
@@ -538,7 +538,7 @@ namespace SpaceLane
             series1.Legend = "Legend1";
             series1.Name = "Altitude";
             this.chart_Altitude.Series.Add(series1);
-            this.chart_Altitude.Size = new System.Drawing.Size(967, 340);
+            this.chart_Altitude.Size = new System.Drawing.Size(971, 340);
             this.chart_Altitude.TabIndex = 2;
             this.chart_Altitude.Text = "Altitude";
             this.chart_Altitude.MouseEnter += new System.EventHandler(this.chart_Altitude_MouseEnter);
@@ -550,7 +550,7 @@ namespace SpaceLane
             this.tabPageVelocity.Location = new System.Drawing.Point(4, 25);
             this.tabPageVelocity.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageVelocity.Name = "tabPageVelocity";
-            this.tabPageVelocity.Size = new System.Drawing.Size(967, 340);
+            this.tabPageVelocity.Size = new System.Drawing.Size(971, 340);
             this.tabPageVelocity.TabIndex = 3;
             this.tabPageVelocity.Text = "Velocity";
             this.tabPageVelocity.UseVisualStyleBackColor = true;
@@ -578,7 +578,7 @@ namespace SpaceLane
             series2.Legend = "Legend1";
             series2.Name = "Velocity";
             this.chart_Velocity.Series.Add(series2);
-            this.chart_Velocity.Size = new System.Drawing.Size(967, 340);
+            this.chart_Velocity.Size = new System.Drawing.Size(971, 340);
             this.chart_Velocity.TabIndex = 2;
             this.chart_Velocity.Text = "chart1";
             this.chart_Velocity.MouseEnter += new System.EventHandler(this.chart_Velocity_MouseEnter);
@@ -591,7 +591,7 @@ namespace SpaceLane
             this.tabPagePressure.Margin = new System.Windows.Forms.Padding(2);
             this.tabPagePressure.Name = "tabPagePressure";
             this.tabPagePressure.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPagePressure.Size = new System.Drawing.Size(967, 340);
+            this.tabPagePressure.Size = new System.Drawing.Size(971, 340);
             this.tabPagePressure.TabIndex = 1;
             this.tabPagePressure.Text = "Pressure";
             this.tabPagePressure.UseVisualStyleBackColor = true;
@@ -620,7 +620,7 @@ namespace SpaceLane
             series3.Legend = "Legend1";
             series3.Name = "Pressure";
             this.chart_Pressure.Series.Add(series3);
-            this.chart_Pressure.Size = new System.Drawing.Size(963, 336);
+            this.chart_Pressure.Size = new System.Drawing.Size(967, 336);
             this.chart_Pressure.TabIndex = 2;
             this.chart_Pressure.Text = "chart2";
             this.chart_Pressure.MouseEnter += new System.EventHandler(this.chart_Pressure_MouseEnter);
@@ -633,7 +633,7 @@ namespace SpaceLane
             this.tabPageTemperature.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageTemperature.Name = "tabPageTemperature";
             this.tabPageTemperature.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPageTemperature.Size = new System.Drawing.Size(967, 340);
+            this.tabPageTemperature.Size = new System.Drawing.Size(971, 340);
             this.tabPageTemperature.TabIndex = 0;
             this.tabPageTemperature.Text = "Temperature";
             this.tabPageTemperature.UseVisualStyleBackColor = true;
@@ -661,7 +661,7 @@ namespace SpaceLane
             series4.Legend = "Legend1";
             series4.Name = "Temperature";
             this.chart_Temperature.Series.Add(series4);
-            this.chart_Temperature.Size = new System.Drawing.Size(963, 336);
+            this.chart_Temperature.Size = new System.Drawing.Size(967, 336);
             this.chart_Temperature.TabIndex = 1;
             this.chart_Temperature.Text = "chart1";
             this.chart_Temperature.MouseEnter += new System.EventHandler(this.chart_Temperature_MouseEnter);
@@ -673,7 +673,7 @@ namespace SpaceLane
             this.tabPageHumidity.Location = new System.Drawing.Point(4, 25);
             this.tabPageHumidity.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageHumidity.Name = "tabPageHumidity";
-            this.tabPageHumidity.Size = new System.Drawing.Size(967, 340);
+            this.tabPageHumidity.Size = new System.Drawing.Size(971, 340);
             this.tabPageHumidity.TabIndex = 4;
             this.tabPageHumidity.Text = "Humidity";
             this.tabPageHumidity.UseVisualStyleBackColor = true;
@@ -701,7 +701,7 @@ namespace SpaceLane
             series5.Legend = "Legend1";
             series5.Name = "Humidity";
             this.chart_Humidity.Series.Add(series5);
-            this.chart_Humidity.Size = new System.Drawing.Size(967, 340);
+            this.chart_Humidity.Size = new System.Drawing.Size(971, 340);
             this.chart_Humidity.TabIndex = 2;
             this.chart_Humidity.Text = "chart1";
             this.chart_Humidity.MouseEnter += new System.EventHandler(this.chart_Humidity_MouseEnter);
@@ -713,7 +713,7 @@ namespace SpaceLane
             this.tabPageGas.Location = new System.Drawing.Point(4, 25);
             this.tabPageGas.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageGas.Name = "tabPageGas";
-            this.tabPageGas.Size = new System.Drawing.Size(967, 340);
+            this.tabPageGas.Size = new System.Drawing.Size(971, 340);
             this.tabPageGas.TabIndex = 5;
             this.tabPageGas.Text = "Gas";
             this.tabPageGas.UseVisualStyleBackColor = true;
@@ -741,100 +741,102 @@ namespace SpaceLane
             series6.Legend = "Legend1";
             series6.Name = "Gas";
             this.chart_Gas.Series.Add(series6);
-            this.chart_Gas.Size = new System.Drawing.Size(967, 340);
+            this.chart_Gas.Size = new System.Drawing.Size(971, 340);
             this.chart_Gas.TabIndex = 2;
             this.chart_Gas.Text = "chart1";
             this.chart_Gas.MouseEnter += new System.EventHandler(this.chart_Gas_MouseEnter);
             this.chart_Gas.MouseLeave += new System.EventHandler(this.chart_Gas_MouseLeave);
             // 
-            // tabPageUVA
+            // tabPageCO2
             // 
-            this.tabPageUVA.Controls.Add(this.chart_UVA);
-            this.tabPageUVA.Location = new System.Drawing.Point(4, 25);
-            this.tabPageUVA.Margin = new System.Windows.Forms.Padding(2);
-            this.tabPageUVA.Name = "tabPageUVA";
-            this.tabPageUVA.Size = new System.Drawing.Size(967, 340);
-            this.tabPageUVA.TabIndex = 8;
-            this.tabPageUVA.Text = "UVA";
-            this.tabPageUVA.UseVisualStyleBackColor = true;
+            this.tabPageCO2.Controls.Add(this.chart_CO2);
+            this.tabPageCO2.Location = new System.Drawing.Point(4, 25);
+            this.tabPageCO2.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPageCO2.Name = "tabPageCO2";
+            this.tabPageCO2.Size = new System.Drawing.Size(971, 340);
+            this.tabPageCO2.TabIndex = 8;
+            this.tabPageCO2.Text = "CO2";
+            this.tabPageCO2.UseVisualStyleBackColor = true;
             // 
-            // chart_UVA
+            // chart_CO2
             // 
             chartArea7.Name = "ChartArea1";
-            this.chart_UVA.ChartAreas.Add(chartArea7);
-            this.chart_UVA.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chart_CO2.ChartAreas.Add(chartArea7);
+            this.chart_CO2.Dock = System.Windows.Forms.DockStyle.Fill;
             legend7.Name = "Legend1";
-            this.chart_UVA.Legends.Add(legend7);
-            this.chart_UVA.Location = new System.Drawing.Point(0, 0);
-            this.chart_UVA.Margin = new System.Windows.Forms.Padding(0);
-            this.chart_UVA.Name = "chart_UVA";
+            this.chart_CO2.Legends.Add(legend7);
+            this.chart_CO2.Location = new System.Drawing.Point(0, 0);
+            this.chart_CO2.Margin = new System.Windows.Forms.Padding(0);
+            this.chart_CO2.Name = "chart_CO2";
             series7.BorderColor = System.Drawing.SystemColors.Control;
             series7.BorderWidth = 2;
             series7.ChartArea = "ChartArea1";
             series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series7.LabelBackColor = System.Drawing.SystemColors.Control;
             series7.Legend = "Legend1";
-            series7.Name = "UVA";
-            this.chart_UVA.Series.Add(series7);
-            this.chart_UVA.Size = new System.Drawing.Size(967, 340);
-            this.chart_UVA.TabIndex = 2;
-            this.chart_UVA.Text = "chart1";
+            series7.Name = "CO2";
+            this.chart_CO2.Series.Add(series7);
+            this.chart_CO2.Size = new System.Drawing.Size(971, 340);
+            this.chart_CO2.TabIndex = 2;
+            this.chart_CO2.Text = "chart1";
             // 
-            // tabPageUVB
+            // tabPageTVOC
             // 
-            this.tabPageUVB.Controls.Add(this.chart_UVB);
-            this.tabPageUVB.Location = new System.Drawing.Point(4, 25);
-            this.tabPageUVB.Name = "tabPageUVB";
-            this.tabPageUVB.Size = new System.Drawing.Size(967, 340);
-            this.tabPageUVB.TabIndex = 10;
-            this.tabPageUVB.Text = "UVB";
-            this.tabPageUVB.UseVisualStyleBackColor = true;
+            this.tabPageTVOC.Controls.Add(this.chart_TVOC);
+            this.tabPageTVOC.Location = new System.Drawing.Point(4, 25);
+            this.tabPageTVOC.Name = "tabPageTVOC";
+            this.tabPageTVOC.Size = new System.Drawing.Size(971, 340);
+            this.tabPageTVOC.TabIndex = 10;
+            this.tabPageTVOC.Text = "TVOC";
+            this.tabPageTVOC.UseVisualStyleBackColor = true;
             // 
-            // chart_UVB
+            // chart_TVOC
             // 
             chartArea8.Name = "ChartArea1";
-            this.chart_UVB.ChartAreas.Add(chartArea8);
-            this.chart_UVB.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chart_TVOC.ChartAreas.Add(chartArea8);
+            this.chart_TVOC.Dock = System.Windows.Forms.DockStyle.Fill;
             legend8.Name = "Legend1";
-            this.chart_UVB.Legends.Add(legend8);
-            this.chart_UVB.Location = new System.Drawing.Point(0, 0);
-            this.chart_UVB.Name = "chart_UVB";
+            this.chart_TVOC.Legends.Add(legend8);
+            this.chart_TVOC.Location = new System.Drawing.Point(0, 0);
+            this.chart_TVOC.Name = "chart_TVOC";
+            series8.BorderWidth = 2;
             series8.ChartArea = "ChartArea1";
             series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series8.Legend = "Legend1";
-            series8.Name = "UVB";
-            this.chart_UVB.Series.Add(series8);
-            this.chart_UVB.Size = new System.Drawing.Size(967, 340);
-            this.chart_UVB.TabIndex = 0;
-            this.chart_UVB.Text = "chartUVB";
+            series8.Name = "TVOC";
+            this.chart_TVOC.Series.Add(series8);
+            this.chart_TVOC.Size = new System.Drawing.Size(971, 340);
+            this.chart_TVOC.TabIndex = 0;
+            this.chart_TVOC.Text = "chartUVB";
             // 
-            // tabPageUVIndex
+            // tabPageCO
             // 
-            this.tabPageUVIndex.Controls.Add(this.chart_UVIndex);
-            this.tabPageUVIndex.Location = new System.Drawing.Point(4, 25);
-            this.tabPageUVIndex.Name = "tabPageUVIndex";
-            this.tabPageUVIndex.Size = new System.Drawing.Size(967, 340);
-            this.tabPageUVIndex.TabIndex = 11;
-            this.tabPageUVIndex.Text = "UVIndex";
-            this.tabPageUVIndex.UseVisualStyleBackColor = true;
+            this.tabPageCO.Controls.Add(this.chart_CO);
+            this.tabPageCO.Location = new System.Drawing.Point(4, 25);
+            this.tabPageCO.Name = "tabPageCO";
+            this.tabPageCO.Size = new System.Drawing.Size(971, 340);
+            this.tabPageCO.TabIndex = 11;
+            this.tabPageCO.Text = "CO";
+            this.tabPageCO.UseVisualStyleBackColor = true;
             // 
-            // chart_UVIndex
+            // chart_CO
             // 
             chartArea9.Name = "ChartArea1";
-            this.chart_UVIndex.ChartAreas.Add(chartArea9);
-            this.chart_UVIndex.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chart_CO.ChartAreas.Add(chartArea9);
+            this.chart_CO.Dock = System.Windows.Forms.DockStyle.Fill;
             legend9.Name = "Legend1";
-            this.chart_UVIndex.Legends.Add(legend9);
-            this.chart_UVIndex.Location = new System.Drawing.Point(0, 0);
-            this.chart_UVIndex.Name = "chart_UVIndex";
+            this.chart_CO.Legends.Add(legend9);
+            this.chart_CO.Location = new System.Drawing.Point(0, 0);
+            this.chart_CO.Name = "chart_CO";
+            series9.BorderWidth = 2;
             series9.ChartArea = "ChartArea1";
             series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series9.Legend = "Legend1";
-            series9.Name = "UV Index";
-            this.chart_UVIndex.Series.Add(series9);
-            this.chart_UVIndex.Size = new System.Drawing.Size(967, 340);
-            this.chart_UVIndex.TabIndex = 0;
-            this.chart_UVIndex.Text = "chartUV Index";
+            series9.Name = "CO";
+            this.chart_CO.Series.Add(series9);
+            this.chart_CO.Size = new System.Drawing.Size(971, 340);
+            this.chart_CO.TabIndex = 0;
+            this.chart_CO.Text = "chartUV Index";
             // 
             // panel2
             // 
@@ -843,7 +845,7 @@ namespace SpaceLane
             this.panel2.Location = new System.Drawing.Point(0, 369);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(975, 222);
+            this.panel2.Size = new System.Drawing.Size(979, 222);
             this.panel2.TabIndex = 23;
             // 
             // groupBox2
@@ -855,7 +857,7 @@ namespace SpaceLane
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox2.Size = new System.Drawing.Size(395, 273);
+            this.groupBox2.Size = new System.Drawing.Size(391, 273);
             this.groupBox2.TabIndex = 123;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Log";
@@ -866,15 +868,15 @@ namespace SpaceLane
             this.richTextBoxSerialMonitor.Location = new System.Drawing.Point(3, 18);
             this.richTextBoxSerialMonitor.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBoxSerialMonitor.Name = "richTextBoxSerialMonitor";
-            this.richTextBoxSerialMonitor.Size = new System.Drawing.Size(389, 251);
+            this.richTextBoxSerialMonitor.Size = new System.Drawing.Size(385, 251);
             this.richTextBoxSerialMonitor.TabIndex = 23;
             this.richTextBoxSerialMonitor.Text = "";
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.tbUVIndex);
-            this.groupBox1.Controls.Add(this.tbUVB);
-            this.groupBox1.Controls.Add(this.tbUVA);
+            this.groupBox1.Controls.Add(this.tbCO);
+            this.groupBox1.Controls.Add(this.tbTVOC);
+            this.groupBox1.Controls.Add(this.tbCO2);
             this.groupBox1.Controls.Add(this.label19);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.tbBMETemperature);
@@ -899,44 +901,44 @@ namespace SpaceLane
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(395, 318);
+            this.groupBox1.Size = new System.Drawing.Size(391, 318);
             this.groupBox1.TabIndex = 122;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Processed Monitor";
             // 
-            // tbUVIndex
+            // tbCO
             // 
-            this.tbUVIndex.Location = new System.Drawing.Point(286, 252);
-            this.tbUVIndex.Margin = new System.Windows.Forms.Padding(2);
-            this.tbUVIndex.Name = "tbUVIndex";
-            this.tbUVIndex.Size = new System.Drawing.Size(60, 21);
-            this.tbUVIndex.TabIndex = 171;
+            this.tbCO.Location = new System.Drawing.Point(329, 252);
+            this.tbCO.Margin = new System.Windows.Forms.Padding(2);
+            this.tbCO.Name = "tbCO";
+            this.tbCO.Size = new System.Drawing.Size(60, 21);
+            this.tbCO.TabIndex = 171;
             // 
-            // tbUVB
+            // tbTVOC
             // 
-            this.tbUVB.Location = new System.Drawing.Point(222, 252);
-            this.tbUVB.Margin = new System.Windows.Forms.Padding(2);
-            this.tbUVB.Name = "tbUVB";
-            this.tbUVB.Size = new System.Drawing.Size(60, 21);
-            this.tbUVB.TabIndex = 170;
+            this.tbTVOC.Location = new System.Drawing.Point(265, 252);
+            this.tbTVOC.Margin = new System.Windows.Forms.Padding(2);
+            this.tbTVOC.Name = "tbTVOC";
+            this.tbTVOC.Size = new System.Drawing.Size(60, 21);
+            this.tbTVOC.TabIndex = 170;
             // 
-            // tbUVA
+            // tbCO2
             // 
-            this.tbUVA.Location = new System.Drawing.Point(157, 252);
-            this.tbUVA.Margin = new System.Windows.Forms.Padding(2);
-            this.tbUVA.Name = "tbUVA";
-            this.tbUVA.Size = new System.Drawing.Size(61, 21);
-            this.tbUVA.TabIndex = 168;
+            this.tbCO2.Location = new System.Drawing.Point(200, 252);
+            this.tbCO2.Margin = new System.Windows.Forms.Padding(2);
+            this.tbCO2.Name = "tbCO2";
+            this.tbCO2.Size = new System.Drawing.Size(61, 21);
+            this.tbCO2.TabIndex = 168;
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(21, 255);
+            this.label19.Location = new System.Drawing.Point(10, 255);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(132, 15);
+            this.label19.Size = new System.Drawing.Size(187, 15);
             this.label19.TabIndex = 164;
-            this.label19.Text = "Ultraviolet (A, B, Index):";
+            this.label19.Text = "Concentrations (CO2, TVOC, CO):";
             // 
             // label9
             // 
@@ -970,7 +972,7 @@ namespace SpaceLane
             // 
             // tbBMEPressure
             // 
-            this.tbBMEPressure.Location = new System.Drawing.Point(90, 178);
+            this.tbBMEPressure.Location = new System.Drawing.Point(71, 178);
             this.tbBMEPressure.Margin = new System.Windows.Forms.Padding(2);
             this.tbBMEPressure.Name = "tbBMEPressure";
             this.tbBMEPressure.Size = new System.Drawing.Size(70, 21);
@@ -987,7 +989,7 @@ namespace SpaceLane
             // tbAltitude
             // 
             this.tbAltitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbAltitude.Location = new System.Drawing.Point(24, 107);
+            this.tbAltitude.Location = new System.Drawing.Point(13, 107);
             this.tbAltitude.Margin = new System.Windows.Forms.Padding(2);
             this.tbAltitude.Name = "tbAltitude";
             this.tbAltitude.Size = new System.Drawing.Size(140, 45);
@@ -997,7 +999,7 @@ namespace SpaceLane
             // 
             // tbBMEVOCGas
             // 
-            this.tbBMEVOCGas.Location = new System.Drawing.Point(90, 216);
+            this.tbBMEVOCGas.Location = new System.Drawing.Point(71, 216);
             this.tbBMEVOCGas.Margin = new System.Windows.Forms.Padding(2);
             this.tbBMEVOCGas.Name = "tbBMEVOCGas";
             this.tbBMEVOCGas.Size = new System.Drawing.Size(70, 21);
@@ -1007,7 +1009,7 @@ namespace SpaceLane
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(20, 87);
+            this.label8.Location = new System.Drawing.Point(10, 87);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(198, 18);
@@ -1016,7 +1018,7 @@ namespace SpaceLane
             // 
             // label30
             // 
-            this.label30.Location = new System.Drawing.Point(21, 181);
+            this.label30.Location = new System.Drawing.Point(10, 180);
             this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(75, 19);
@@ -1034,7 +1036,7 @@ namespace SpaceLane
             // 
             // label28
             // 
-            this.label28.Location = new System.Drawing.Point(21, 219);
+            this.label28.Location = new System.Drawing.Point(10, 219);
             this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(65, 16);
@@ -1080,7 +1082,7 @@ namespace SpaceLane
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(21, 289);
+            this.label14.Location = new System.Drawing.Point(10, 289);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(76, 15);
@@ -1134,7 +1136,7 @@ namespace SpaceLane
             this.mapControl.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
             this.mapControl.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.mapControl.ShowTileGridLines = false;
-            this.mapControl.Size = new System.Drawing.Size(975, 222);
+            this.mapControl.Size = new System.Drawing.Size(979, 222);
             this.mapControl.TabIndex = 0;
             this.mapControl.Zoom = 0D;
             this.mapControl.OnMapZoomChanged += new GMap.NET.MapZoomChanged(this.mapControl_OnMapZoomChanged);
@@ -1185,12 +1187,12 @@ namespace SpaceLane
             ((System.ComponentModel.ISupportInitialize)(this.chart_Humidity)).EndInit();
             this.tabPageGas.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart_Gas)).EndInit();
-            this.tabPageUVA.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_UVA)).EndInit();
-            this.tabPageUVB.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_UVB)).EndInit();
-            this.tabPageUVIndex.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_UVIndex)).EndInit();
+            this.tabPageCO2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_CO2)).EndInit();
+            this.tabPageTVOC.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_TVOC)).EndInit();
+            this.tabPageCO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_CO)).EndInit();
             this.panel2.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -1265,15 +1267,15 @@ namespace SpaceLane
         private System.Windows.Forms.DataVisualization.Charting.Chart chart_Humidity;
         private System.Windows.Forms.TabPage tabPageGas;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart_Gas;
-        private System.Windows.Forms.TabPage tabPageUVA;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart_UVA;
-        private System.Windows.Forms.TabPage tabPageUVB;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart_UVB;
-        private System.Windows.Forms.TabPage tabPageUVIndex;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart_UVIndex;
-        private System.Windows.Forms.TextBox tbUVIndex;
-        private System.Windows.Forms.TextBox tbUVB;
-        private System.Windows.Forms.TextBox tbUVA;
+        private System.Windows.Forms.TabPage tabPageCO2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart_CO2;
+        private System.Windows.Forms.TabPage tabPageTVOC;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart_TVOC;
+        private System.Windows.Forms.TabPage tabPageCO;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart_CO;
+        private System.Windows.Forms.TextBox tbCO;
+        private System.Windows.Forms.TextBox tbTVOC;
+        private System.Windows.Forms.TextBox tbCO2;
         private System.Windows.Forms.Label label19;
     }
 }
