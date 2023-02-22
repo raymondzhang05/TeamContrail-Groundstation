@@ -88,4 +88,4 @@ C:\My Stuff\Cansat 22-23 (Contrail)\Contrail-V1 (Read New DataPack)\Contrail\obj
 C:\My Stuff\Cansat 22-23 (Contrail)\Contrail-V1 (Read New DataPack)\Contrail\obj\Debug\Contrail.csproj.CopyComplete
 C:\My Stuff\Cansat 22-23 (Contrail)\Contrail-V1 (Read New DataPack)\Contrail\obj\Debug\Contrail.exe
 C:\My Stuff\Cansat 22-23 (Contrail)\Contrail-V1 (Read New DataPack)\Contrail\obj\Debug\Contrail.pdb
-C:\My Stuff\Cansat 22-23 (Contrail)\Contrail-V1 (Read New DataPack)\Contrail\obj\Debug\Contrail.Form1.resources
+C:\My Stuff\Cansat 22-23 (Contrail)\Contrail-V1 (Read New DataPack)\Contrail\obj\Debug\Contrail.FormPopupData.resources

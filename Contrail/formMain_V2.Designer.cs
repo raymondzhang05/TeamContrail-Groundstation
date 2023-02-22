@@ -104,10 +104,11 @@ namespace SpaceLane
             this.tabPageCO = new System.Windows.Forms.TabPage();
             this.chart_CO = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.mapControl = new SpaceLane.MapControl();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.richTextBoxSerialMonitor = new System.Windows.Forms.RichTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonPopupData = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.tbCO = new System.Windows.Forms.TextBox();
             this.tbTVOC = new System.Windows.Forms.TextBox();
             this.tbCO2 = new System.Windows.Forms.TextBox();
@@ -131,6 +132,7 @@ namespace SpaceLane
             this.label12 = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.mapControl = new SpaceLane.MapControl();
             this.statusStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -277,8 +279,6 @@ namespace SpaceLane
             // Checkbox_LockGPSMap
             // 
             this.Checkbox_LockGPSMap.AutoSize = true;
-            this.Checkbox_LockGPSMap.Checked = true;
-            this.Checkbox_LockGPSMap.CheckState = System.Windows.Forms.CheckState.Checked;
             this.Checkbox_LockGPSMap.Location = new System.Drawing.Point(8, 34);
             this.Checkbox_LockGPSMap.Margin = new System.Windows.Forms.Padding(2);
             this.Checkbox_LockGPSMap.Name = "Checkbox_LockGPSMap";
@@ -356,7 +356,6 @@ namespace SpaceLane
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // gbSerialPort
             // 
@@ -468,7 +467,7 @@ namespace SpaceLane
             this.splitContainer1.Panel2.Controls.Add(this.groupBox2);
             this.splitContainer1.Panel2.Controls.Add(this.groupBox1);
             this.splitContainer1.Size = new System.Drawing.Size(1372, 591);
-            this.splitContainer1.SplitterDistance = 985;
+            this.splitContainer1.SplitterDistance = 995;
             this.splitContainer1.SplitterWidth = 2;
             this.splitContainer1.TabIndex = 2;
             // 
@@ -479,7 +478,7 @@ namespace SpaceLane
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(985, 369);
+            this.panel3.Size = new System.Drawing.Size(995, 369);
             this.panel3.TabIndex = 3;
             // 
             // tabControlCharts
@@ -499,7 +498,7 @@ namespace SpaceLane
             this.tabControlCharts.Margin = new System.Windows.Forms.Padding(11, 2, 2, 2);
             this.tabControlCharts.Name = "tabControlCharts";
             this.tabControlCharts.SelectedIndex = 0;
-            this.tabControlCharts.Size = new System.Drawing.Size(985, 369);
+            this.tabControlCharts.Size = new System.Drawing.Size(995, 369);
             this.tabControlCharts.TabIndex = 22;
             this.tabControlCharts.SelectedIndexChanged += new System.EventHandler(this.tabControlCharts_SelectedIndexChanged);
             // 
@@ -509,7 +508,7 @@ namespace SpaceLane
             this.tabPageAltitude.Location = new System.Drawing.Point(4, 25);
             this.tabPageAltitude.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageAltitude.Name = "tabPageAltitude";
-            this.tabPageAltitude.Size = new System.Drawing.Size(977, 340);
+            this.tabPageAltitude.Size = new System.Drawing.Size(987, 340);
             this.tabPageAltitude.TabIndex = 2;
             this.tabPageAltitude.Text = "Altitude";
             this.tabPageAltitude.UseVisualStyleBackColor = true;
@@ -538,11 +537,9 @@ namespace SpaceLane
             series1.Legend = "Legend1";
             series1.Name = "Altitude";
             this.chart_Altitude.Series.Add(series1);
-            this.chart_Altitude.Size = new System.Drawing.Size(977, 340);
+            this.chart_Altitude.Size = new System.Drawing.Size(987, 340);
             this.chart_Altitude.TabIndex = 2;
             this.chart_Altitude.Text = "Altitude";
-            this.chart_Altitude.MouseEnter += new System.EventHandler(this.chart_Altitude_MouseEnter);
-            this.chart_Altitude.MouseLeave += new System.EventHandler(this.chart_Altitude_MouseLeave);
             // 
             // tabPageVelocity
             // 
@@ -550,7 +547,7 @@ namespace SpaceLane
             this.tabPageVelocity.Location = new System.Drawing.Point(4, 25);
             this.tabPageVelocity.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageVelocity.Name = "tabPageVelocity";
-            this.tabPageVelocity.Size = new System.Drawing.Size(975, 340);
+            this.tabPageVelocity.Size = new System.Drawing.Size(987, 340);
             this.tabPageVelocity.TabIndex = 3;
             this.tabPageVelocity.Text = "Velocity";
             this.tabPageVelocity.UseVisualStyleBackColor = true;
@@ -578,7 +575,7 @@ namespace SpaceLane
             series2.Legend = "Legend1";
             series2.Name = "Velocity";
             this.chart_Velocity.Series.Add(series2);
-            this.chart_Velocity.Size = new System.Drawing.Size(975, 340);
+            this.chart_Velocity.Size = new System.Drawing.Size(987, 340);
             this.chart_Velocity.TabIndex = 2;
             this.chart_Velocity.Text = "chart1";
             this.chart_Velocity.MouseEnter += new System.EventHandler(this.chart_Velocity_MouseEnter);
@@ -591,7 +588,7 @@ namespace SpaceLane
             this.tabPagePressure.Margin = new System.Windows.Forms.Padding(2);
             this.tabPagePressure.Name = "tabPagePressure";
             this.tabPagePressure.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPagePressure.Size = new System.Drawing.Size(975, 340);
+            this.tabPagePressure.Size = new System.Drawing.Size(987, 340);
             this.tabPagePressure.TabIndex = 1;
             this.tabPagePressure.Text = "Pressure";
             this.tabPagePressure.UseVisualStyleBackColor = true;
@@ -620,11 +617,9 @@ namespace SpaceLane
             series3.Legend = "Legend1";
             series3.Name = "Pressure";
             this.chart_Pressure.Series.Add(series3);
-            this.chart_Pressure.Size = new System.Drawing.Size(971, 336);
+            this.chart_Pressure.Size = new System.Drawing.Size(983, 336);
             this.chart_Pressure.TabIndex = 2;
             this.chart_Pressure.Text = "chart2";
-            this.chart_Pressure.MouseEnter += new System.EventHandler(this.chart_Pressure_MouseEnter);
-            this.chart_Pressure.MouseLeave += new System.EventHandler(this.chart_Pressure_MouseLeave);
             // 
             // tabPageTemperature
             // 
@@ -633,7 +628,7 @@ namespace SpaceLane
             this.tabPageTemperature.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageTemperature.Name = "tabPageTemperature";
             this.tabPageTemperature.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPageTemperature.Size = new System.Drawing.Size(975, 340);
+            this.tabPageTemperature.Size = new System.Drawing.Size(987, 340);
             this.tabPageTemperature.TabIndex = 0;
             this.tabPageTemperature.Text = "Temperature";
             this.tabPageTemperature.UseVisualStyleBackColor = true;
@@ -661,11 +656,9 @@ namespace SpaceLane
             series4.Legend = "Legend1";
             series4.Name = "Temperature";
             this.chart_Temperature.Series.Add(series4);
-            this.chart_Temperature.Size = new System.Drawing.Size(971, 336);
+            this.chart_Temperature.Size = new System.Drawing.Size(983, 336);
             this.chart_Temperature.TabIndex = 1;
             this.chart_Temperature.Text = "chart1";
-            this.chart_Temperature.MouseEnter += new System.EventHandler(this.chart_Temperature_MouseEnter);
-            this.chart_Temperature.MouseLeave += new System.EventHandler(this.chart_Temperature_MouseLeave);
             // 
             // tabPageHumidity
             // 
@@ -673,7 +666,7 @@ namespace SpaceLane
             this.tabPageHumidity.Location = new System.Drawing.Point(4, 25);
             this.tabPageHumidity.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageHumidity.Name = "tabPageHumidity";
-            this.tabPageHumidity.Size = new System.Drawing.Size(975, 340);
+            this.tabPageHumidity.Size = new System.Drawing.Size(987, 340);
             this.tabPageHumidity.TabIndex = 4;
             this.tabPageHumidity.Text = "Humidity";
             this.tabPageHumidity.UseVisualStyleBackColor = true;
@@ -701,7 +694,7 @@ namespace SpaceLane
             series5.Legend = "Legend1";
             series5.Name = "Humidity";
             this.chart_Humidity.Series.Add(series5);
-            this.chart_Humidity.Size = new System.Drawing.Size(975, 340);
+            this.chart_Humidity.Size = new System.Drawing.Size(987, 340);
             this.chart_Humidity.TabIndex = 2;
             this.chart_Humidity.Text = "chart1";
             this.chart_Humidity.MouseEnter += new System.EventHandler(this.chart_Humidity_MouseEnter);
@@ -713,7 +706,7 @@ namespace SpaceLane
             this.tabPageGas.Location = new System.Drawing.Point(4, 25);
             this.tabPageGas.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageGas.Name = "tabPageGas";
-            this.tabPageGas.Size = new System.Drawing.Size(975, 340);
+            this.tabPageGas.Size = new System.Drawing.Size(987, 340);
             this.tabPageGas.TabIndex = 5;
             this.tabPageGas.Text = "Gas";
             this.tabPageGas.UseVisualStyleBackColor = true;
@@ -741,7 +734,7 @@ namespace SpaceLane
             series6.Legend = "Legend1";
             series6.Name = "Gas";
             this.chart_Gas.Series.Add(series6);
-            this.chart_Gas.Size = new System.Drawing.Size(975, 340);
+            this.chart_Gas.Size = new System.Drawing.Size(987, 340);
             this.chart_Gas.TabIndex = 2;
             this.chart_Gas.Text = "chart1";
             this.chart_Gas.MouseEnter += new System.EventHandler(this.chart_Gas_MouseEnter);
@@ -753,7 +746,7 @@ namespace SpaceLane
             this.tabPageCO2.Location = new System.Drawing.Point(4, 25);
             this.tabPageCO2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageCO2.Name = "tabPageCO2";
-            this.tabPageCO2.Size = new System.Drawing.Size(975, 340);
+            this.tabPageCO2.Size = new System.Drawing.Size(987, 340);
             this.tabPageCO2.TabIndex = 8;
             this.tabPageCO2.Text = "CO2";
             this.tabPageCO2.UseVisualStyleBackColor = true;
@@ -776,7 +769,7 @@ namespace SpaceLane
             series7.Legend = "Legend1";
             series7.Name = "CO2";
             this.chart_CO2.Series.Add(series7);
-            this.chart_CO2.Size = new System.Drawing.Size(975, 340);
+            this.chart_CO2.Size = new System.Drawing.Size(987, 340);
             this.chart_CO2.TabIndex = 2;
             this.chart_CO2.Text = "chart1";
             // 
@@ -785,7 +778,7 @@ namespace SpaceLane
             this.tabPageTVOC.Controls.Add(this.chart_TVOC);
             this.tabPageTVOC.Location = new System.Drawing.Point(4, 25);
             this.tabPageTVOC.Name = "tabPageTVOC";
-            this.tabPageTVOC.Size = new System.Drawing.Size(975, 340);
+            this.tabPageTVOC.Size = new System.Drawing.Size(987, 340);
             this.tabPageTVOC.TabIndex = 10;
             this.tabPageTVOC.Text = "TVOC";
             this.tabPageTVOC.UseVisualStyleBackColor = true;
@@ -805,7 +798,7 @@ namespace SpaceLane
             series8.Legend = "Legend1";
             series8.Name = "TVOC";
             this.chart_TVOC.Series.Add(series8);
-            this.chart_TVOC.Size = new System.Drawing.Size(975, 340);
+            this.chart_TVOC.Size = new System.Drawing.Size(987, 340);
             this.chart_TVOC.TabIndex = 0;
             this.chart_TVOC.Text = "chartUVB";
             // 
@@ -814,7 +807,7 @@ namespace SpaceLane
             this.tabPageCO.Controls.Add(this.chart_CO);
             this.tabPageCO.Location = new System.Drawing.Point(4, 25);
             this.tabPageCO.Name = "tabPageCO";
-            this.tabPageCO.Size = new System.Drawing.Size(975, 340);
+            this.tabPageCO.Size = new System.Drawing.Size(987, 340);
             this.tabPageCO.TabIndex = 11;
             this.tabPageCO.Text = "CO";
             this.tabPageCO.UseVisualStyleBackColor = true;
@@ -834,7 +827,7 @@ namespace SpaceLane
             series9.Legend = "Legend1";
             series9.Name = "CO";
             this.chart_CO.Series.Add(series9);
-            this.chart_CO.Size = new System.Drawing.Size(975, 340);
+            this.chart_CO.Size = new System.Drawing.Size(987, 340);
             this.chart_CO.TabIndex = 0;
             this.chart_CO.Text = "chartUV Index";
             // 
@@ -845,38 +838,8 @@ namespace SpaceLane
             this.panel2.Location = new System.Drawing.Point(0, 369);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(985, 222);
+            this.panel2.Size = new System.Drawing.Size(995, 222);
             this.panel2.TabIndex = 23;
-            // 
-            // mapControl
-            // 
-            this.mapControl.Bearing = 0F;
-            this.mapControl.CanDragMap = true;
-            this.mapControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mapControl.EmptyTileColor = System.Drawing.Color.Navy;
-            this.mapControl.GrayScaleMode = false;
-            this.mapControl.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
-            this.mapControl.LevelsKeepInMemory = 5;
-            this.mapControl.Location = new System.Drawing.Point(0, 0);
-            this.mapControl.Margin = new System.Windows.Forms.Padding(2);
-            this.mapControl.MarkersEnabled = true;
-            this.mapControl.MaxZoom = 2;
-            this.mapControl.MinZoom = 2;
-            this.mapControl.MouseWheelZoomEnabled = true;
-            this.mapControl.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
-            this.mapControl.Name = "mapControl";
-            this.mapControl.NegativeMode = false;
-            this.mapControl.PolygonsEnabled = true;
-            this.mapControl.RetryLoadTile = 0;
-            this.mapControl.RoutesEnabled = true;
-            this.mapControl.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
-            this.mapControl.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
-            this.mapControl.ShowTileGridLines = false;
-            this.mapControl.Size = new System.Drawing.Size(985, 222);
-            this.mapControl.TabIndex = 0;
-            this.mapControl.Zoom = 0D;
-            this.mapControl.OnMapZoomChanged += new GMap.NET.MapZoomChanged(this.mapControl_OnMapZoomChanged);
-            this.mapControl.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mapControl_MouseDown);
             // 
             // groupBox2
             // 
@@ -887,7 +850,7 @@ namespace SpaceLane
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox2.Size = new System.Drawing.Size(385, 226);
+            this.groupBox2.Size = new System.Drawing.Size(375, 226);
             this.groupBox2.TabIndex = 123;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Log";
@@ -898,12 +861,14 @@ namespace SpaceLane
             this.richTextBoxSerialMonitor.Location = new System.Drawing.Point(3, 18);
             this.richTextBoxSerialMonitor.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBoxSerialMonitor.Name = "richTextBoxSerialMonitor";
-            this.richTextBoxSerialMonitor.Size = new System.Drawing.Size(379, 204);
+            this.richTextBoxSerialMonitor.Size = new System.Drawing.Size(369, 204);
             this.richTextBoxSerialMonitor.TabIndex = 23;
             this.richTextBoxSerialMonitor.Text = "";
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.buttonPopupData);
+            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.tbCO);
             this.groupBox1.Controls.Add(this.tbTVOC);
             this.groupBox1.Controls.Add(this.tbCO2);
@@ -931,14 +896,35 @@ namespace SpaceLane
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(385, 365);
+            this.groupBox1.Size = new System.Drawing.Size(375, 365);
             this.groupBox1.TabIndex = 122;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Processed Monitor";
             // 
+            // buttonPopupData
+            // 
+            this.buttonPopupData.Location = new System.Drawing.Point(258, 323);
+            this.buttonPopupData.Name = "buttonPopupData";
+            this.buttonPopupData.Size = new System.Drawing.Size(111, 23);
+            this.buttonPopupData.TabIndex = 173;
+            this.buttonPopupData.Text = "Analyzed Data";
+            this.buttonPopupData.UseVisualStyleBackColor = true;
+            this.buttonPopupData.Click += new System.EventHandler(this.buttonPopupData_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(10, 319);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(239, 30);
+            this.label3.TabIndex = 172;
+            this.label3.Text = "Access a detailed summary of greatest gas\r\nconcentrations necessary for firefight" +
+    "ers:";
+            // 
             // tbCO
             // 
-            this.tbCO.Location = new System.Drawing.Point(329, 252);
+            this.tbCO.Location = new System.Drawing.Point(322, 252);
             this.tbCO.Margin = new System.Windows.Forms.Padding(2);
             this.tbCO.Name = "tbCO";
             this.tbCO.Size = new System.Drawing.Size(60, 21);
@@ -946,7 +932,7 @@ namespace SpaceLane
             // 
             // tbTVOC
             // 
-            this.tbTVOC.Location = new System.Drawing.Point(265, 252);
+            this.tbTVOC.Location = new System.Drawing.Point(259, 252);
             this.tbTVOC.Margin = new System.Windows.Forms.Padding(2);
             this.tbTVOC.Name = "tbTVOC";
             this.tbTVOC.Size = new System.Drawing.Size(60, 21);
@@ -954,7 +940,7 @@ namespace SpaceLane
             // 
             // tbCO2
             // 
-            this.tbCO2.Location = new System.Drawing.Point(200, 252);
+            this.tbCO2.Location = new System.Drawing.Point(195, 252);
             this.tbCO2.Margin = new System.Windows.Forms.Padding(2);
             this.tbCO2.Name = "tbCO2";
             this.tbCO2.Size = new System.Drawing.Size(61, 21);
@@ -1142,23 +1128,54 @@ namespace SpaceLane
             this.imageList2.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
             // 
+            // mapControl
+            // 
+            this.mapControl.Bearing = 0F;
+            this.mapControl.CanDragMap = true;
+            this.mapControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mapControl.EmptyTileColor = System.Drawing.Color.Navy;
+            this.mapControl.GrayScaleMode = false;
+            this.mapControl.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
+            this.mapControl.LevelsKeepInMemory = 5;
+            this.mapControl.Location = new System.Drawing.Point(0, 0);
+            this.mapControl.Margin = new System.Windows.Forms.Padding(2);
+            this.mapControl.MarkersEnabled = true;
+            this.mapControl.MaxZoom = 2;
+            this.mapControl.MinZoom = 2;
+            this.mapControl.MouseWheelZoomEnabled = true;
+            this.mapControl.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionAndCenter;
+            this.mapControl.Name = "mapControl";
+            this.mapControl.NegativeMode = false;
+            this.mapControl.PolygonsEnabled = true;
+            this.mapControl.RetryLoadTile = 0;
+            this.mapControl.RoutesEnabled = true;
+            this.mapControl.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
+            this.mapControl.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
+            this.mapControl.ShowTileGridLines = false;
+            this.mapControl.Size = new System.Drawing.Size(995, 222);
+            this.mapControl.TabIndex = 0;
+            this.mapControl.Zoom = 0D;
+            this.mapControl.OnMapZoomChanged += new GMap.NET.MapZoomChanged(this.mapControl_OnMapZoomChanged);
+            this.mapControl.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mapControl_MouseDown);
+            // 
             // formMain_V2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1378, 705);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.statusStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "formMain_V2";
             this.Padding = new System.Windows.Forms.Padding(3);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Space Lane Center Control System";
+            this.Text = "Team Contrail Groundstation Software";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.formMain_V2_FormClosing);
             this.Shown += new System.EventHandler(this.formMain_V2_Shown);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
@@ -1278,5 +1295,7 @@ namespace SpaceLane
         private System.Windows.Forms.TextBox tbTVOC;
         private System.Windows.Forms.TextBox tbCO2;
         private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button buttonPopupData;
+        private System.Windows.Forms.Label label3;
     }
 }

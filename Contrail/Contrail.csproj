@@ -89,11 +89,11 @@
     <Compile Include="Constants.cs" />
     <Compile Include="DataPack.cs" />
     <Compile Include="DataPackReader.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="FormPopupData.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormPopupData.Designer.cs">
+      <DependentUpon>FormPopupData.cs</DependentUpon>
     </Compile>
     <Compile Include="formMain_V2.cs">
       <SubType>Form</SubType>
@@ -121,8 +121,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormPopupData.resx">
+      <DependentUpon>FormPopupData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formMain_V2.resx">
       <DependentUpon>formMain_V2.cs</DependentUpon>

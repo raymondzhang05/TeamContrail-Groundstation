@@ -1,4 +1,5 @@
-﻿using GMap.NET;
+﻿using Contrail;
+using GMap.NET;
 using GMap.NET.MapProviders;
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
@@ -131,7 +132,7 @@ namespace SpaceLane
             string message = "This software is used with Team Contrail's CanSat to aid firefighters during wildfires. To analyze a .txt file, click open file and select the file from the finder. To connect to the live data from the satellite, select a COM port and Baud rate, then click connect.";
             string title = "Welcome to Team Contrail Groundstation Software";
             MessageBoxButtons buttons = MessageBoxButtons.OK;
-            DialogResult result = MessageBox.Show(message, title, buttons, MessageBoxIcon.Warning);
+            DialogResult result = MessageBox.Show(message, title, buttons, MessageBoxIcon.Information);
         }
 
         #region UI Event Handler
@@ -394,17 +395,17 @@ namespace SpaceLane
             catch { }
         }
 
-        private void chart_Altitude_MouseEnter(object sender, EventArgs e)
-        {
-            if (!chart_Altitude.Focused)
-                chart_Altitude.Focus();
-        }
+        //private void chart_Altitude_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (!chart_Altitude.Focused)
+        //        chart_Altitude.Focus();
+        //}
 
-        private void chart_Altitude_MouseLeave(object sender, EventArgs e)
-        {
-            if (chart_Altitude.Focused)
-                chart_Altitude.Parent.Focus();
-        }
+        //private void chart_Altitude_MouseLeave(object sender, EventArgs e)
+        //{
+        //    if (chart_Altitude.Focused)
+        //        chart_Altitude.Parent.Focus();
+        //}
 
         private void chart_Altitude_MouseWheel(object sender, MouseEventArgs e)
         {
@@ -442,17 +443,17 @@ namespace SpaceLane
             catch { }
         }
 
-        private void chart_Pressure_MouseEnter(object sender, EventArgs e)
-        {
-            if (!chart_Pressure.Focused)
-                chart_Pressure.Focus();
-        }
+        //private void chart_Pressure_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (!chart_Pressure.Focused)
+        //        chart_Pressure.Focus();
+        //}
 
-        private void chart_Pressure_MouseLeave(object sender, EventArgs e)
-        {
-            if (chart_Pressure.Focused)
-                chart_Pressure.Parent.Focus();
-        }
+        //private void chart_Pressure_MouseLeave(object sender, EventArgs e)
+        //{
+        //    if (chart_Pressure.Focused)
+        //        chart_Pressure.Parent.Focus();
+        //}
 
         private void chart_Pressure_MouseWheel(object sender, MouseEventArgs e)
         {
@@ -490,17 +491,17 @@ namespace SpaceLane
             catch { }
         }
 
-        private void chart_Temperature_MouseEnter(object sender, EventArgs e)
-        {
-            if (!chart_Temperature.Focused)
-                chart_Temperature.Focus();
-        }
+        //private void chart_Temperature_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (!chart_Temperature.Focused)
+        //        chart_Temperature.Focus();
+        //}
 
-        private void chart_Temperature_MouseLeave(object sender, EventArgs e)
-        {
-            if (chart_Temperature.Focused)
-                chart_Temperature.Parent.Focus();
-        }
+        //private void chart_Temperature_MouseLeave(object sender, EventArgs e)
+        //{
+        //    if (chart_Temperature.Focused)
+        //        chart_Temperature.Parent.Focus();
+        //}
 
         private void chart_Temperature_MouseWheel(object sender, MouseEventArgs e)
         {
@@ -538,17 +539,17 @@ namespace SpaceLane
             catch { }
         }
 
-        private void chart_CO2_MouseEnter(object sender, EventArgs e)
-        {
-            if (!chart_CO2.Focused)
-                chart_CO2.Focus();
-        }
+        //private void chart_CO2_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (!chart_CO2.Focused)
+        //        chart_CO2.Focus();
+        //}
 
-        private void chart_CO2_MouseLeave(object sender, EventArgs e)
-        {
-            if (chart_CO2.Focused)
-                chart_CO2.Parent.Focus();
-        }
+        //private void chart_CO2_MouseLeave(object sender, EventArgs e)
+        //{
+        //    if (chart_CO2.Focused)
+        //        chart_CO2.Parent.Focus();
+        //}
 
         private void chart_CO2_MouseWheel(object sender, MouseEventArgs e)
         {
@@ -586,17 +587,17 @@ namespace SpaceLane
             catch { }
         }
 
-        private void chart_TVOC_MouseEnter(object sender, EventArgs e)
-        {
-            if (!chart_TVOC.Focused)
-                chart_TVOC.Focus();
-        }
+        //private void chart_TVOC_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (!chart_TVOC.Focused)
+        //        chart_TVOC.Focus();
+        //}
 
-        private void chart_TVOC_MouseLeave(object sender, EventArgs e)
-        {
-            if (chart_TVOC.Focused)
-                chart_TVOC.Parent.Focus();
-        }
+        //private void chart_TVOC_MouseLeave(object sender, EventArgs e)
+        //{
+        //    if (chart_TVOC.Focused)
+        //        chart_TVOC.Parent.Focus();
+        //}
 
         private void chart_TVOC_MouseWheel(object sender, MouseEventArgs e)
         {
@@ -634,17 +635,17 @@ namespace SpaceLane
             catch { }
         }
 
-        private void chart_CO_MouseEnter(object sender, EventArgs e)
-        {
-            if (!chart_CO.Focused)
-                chart_CO.Focus();
-        }
+        //private void chart_CO_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (!chart_CO.Focused)
+        //        chart_CO.Focus();
+        //}
 
-        private void chart_CO_MouseLeave(object sender, EventArgs e)
-        {
-            if (chart_CO.Focused)
-                chart_CO.Parent.Focus();
-        }
+        //private void chart_CO_MouseLeave(object sender, EventArgs e)
+        //{
+        //    if (chart_CO.Focused)
+        //        chart_CO.Parent.Focus();
+        //}
 
         private void chart_CO_MouseWheel(object sender, MouseEventArgs e)
         {
@@ -682,17 +683,17 @@ namespace SpaceLane
             catch { }
         }
 
-        private void chart_Acceleraion_Net_MouseEnter(object sender, EventArgs e)
-        {
-            if (!chart_Velocity.Focused)
-                chart_Velocity.Focus();
-        }
+        //private void chart_Acceleraion_Net_MouseEnter(object sender, EventArgs e)
+        //{
+        //    if (!chart_Velocity.Focused)
+        //        chart_Velocity.Focus();
+        //}
 
-        private void chart_Acceleration_Net_MouseLeave(object sender, EventArgs e)
-        {
-            if (chart_Velocity.Focused)
-                chart_Velocity.Parent.Focus();
-        }
+        //private void chart_Acceleration_Net_MouseLeave(object sender, EventArgs e)
+        //{
+        //    if (chart_Velocity.Focused)
+        //        chart_Velocity.Parent.Focus();
+        //}
 
         private void chart_Acceleration_Net_MouseWheel(object sender, MouseEventArgs e)
         {
@@ -1660,9 +1661,27 @@ namespace SpaceLane
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        //private void pictureBox1_Click(object sender, EventArgs e)
+        //{
+        //    this.Close();
+        //}
+
+        private void buttonPopupData_Click(object sender, EventArgs e)
         {
-            this.Close();
+            FormPopupData FormPopupDataa = new FormPopupData();
+            FormPopupDataa.Show();
+        }
+
+        private void formMain_V2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            string message = "Please ensure data is saved before closing the program. Click 'Yes' to close the program.";
+            string title = "Are you sure you want to leave?";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(message, title, buttons, MessageBoxIcon.Information);
+            if (result == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
 
         private void ReadFileOld()
