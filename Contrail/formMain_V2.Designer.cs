@@ -31,33 +31,33 @@ namespace SpaceLane
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formMain_V2));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea13 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend13 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea14 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend14 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea16 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend16 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea17 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend17 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea18 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend18 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
@@ -515,28 +515,28 @@ namespace SpaceLane
             // 
             // chart_Altitude
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart_Altitude.ChartAreas.Add(chartArea1);
+            chartArea10.Name = "ChartArea1";
+            this.chart_Altitude.ChartAreas.Add(chartArea10);
             this.chart_Altitude.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Name = "Legend1";
-            legend1.Position.Auto = false;
-            legend1.Position.Height = 4.790419F;
-            legend1.Position.Width = 11.26761F;
-            legend1.Position.X = 85.73239F;
-            legend1.Position.Y = 3F;
-            this.chart_Altitude.Legends.Add(legend1);
+            legend10.Name = "Legend1";
+            legend10.Position.Auto = false;
+            legend10.Position.Height = 4.790419F;
+            legend10.Position.Width = 11.26761F;
+            legend10.Position.X = 85.73239F;
+            legend10.Position.Y = 3F;
+            this.chart_Altitude.Legends.Add(legend10);
             this.chart_Altitude.Location = new System.Drawing.Point(0, 0);
             this.chart_Altitude.Margin = new System.Windows.Forms.Padding(0);
             this.chart_Altitude.Name = "chart_Altitude";
             this.chart_Altitude.Padding = new System.Windows.Forms.Padding(0, 23, 0, 0);
-            series1.BorderColor = System.Drawing.SystemColors.Control;
-            series1.BorderWidth = 2;
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.LabelBackColor = System.Drawing.SystemColors.Control;
-            series1.Legend = "Legend1";
-            series1.Name = "Altitude";
-            this.chart_Altitude.Series.Add(series1);
+            series10.BorderColor = System.Drawing.SystemColors.Control;
+            series10.BorderWidth = 2;
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series10.LabelBackColor = System.Drawing.SystemColors.Control;
+            series10.Legend = "Legend1";
+            series10.Name = "Altitude";
+            this.chart_Altitude.Series.Add(series10);
             this.chart_Altitude.Size = new System.Drawing.Size(987, 340);
             this.chart_Altitude.TabIndex = 2;
             this.chart_Altitude.Text = "Altitude";
@@ -554,27 +554,27 @@ namespace SpaceLane
             // 
             // chart_Velocity
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart_Velocity.ChartAreas.Add(chartArea2);
+            chartArea11.Name = "ChartArea1";
+            this.chart_Velocity.ChartAreas.Add(chartArea11);
             this.chart_Velocity.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Name = "Legend1";
-            legend2.Position.Auto = false;
-            legend2.Position.Height = 4.790419F;
-            legend2.Position.Width = 11.52369F;
-            legend2.Position.X = 85.47631F;
-            legend2.Position.Y = 3F;
-            this.chart_Velocity.Legends.Add(legend2);
+            legend11.Name = "Legend1";
+            legend11.Position.Auto = false;
+            legend11.Position.Height = 4.790419F;
+            legend11.Position.Width = 11.52369F;
+            legend11.Position.X = 85.47631F;
+            legend11.Position.Y = 3F;
+            this.chart_Velocity.Legends.Add(legend11);
             this.chart_Velocity.Location = new System.Drawing.Point(0, 0);
             this.chart_Velocity.Margin = new System.Windows.Forms.Padding(0);
             this.chart_Velocity.Name = "chart_Velocity";
-            series2.BorderColor = System.Drawing.SystemColors.Control;
-            series2.BorderWidth = 2;
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.LabelBackColor = System.Drawing.SystemColors.Control;
-            series2.Legend = "Legend1";
-            series2.Name = "Velocity";
-            this.chart_Velocity.Series.Add(series2);
+            series11.BorderColor = System.Drawing.SystemColors.Control;
+            series11.BorderWidth = 2;
+            series11.ChartArea = "ChartArea1";
+            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series11.LabelBackColor = System.Drawing.SystemColors.Control;
+            series11.Legend = "Legend1";
+            series11.Name = "Velocity";
+            this.chart_Velocity.Series.Add(series11);
             this.chart_Velocity.Size = new System.Drawing.Size(987, 340);
             this.chart_Velocity.TabIndex = 2;
             this.chart_Velocity.Text = "chart1";
@@ -595,28 +595,28 @@ namespace SpaceLane
             // 
             // chart_Pressure
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart_Pressure.ChartAreas.Add(chartArea3);
+            chartArea12.Name = "ChartArea1";
+            this.chart_Pressure.ChartAreas.Add(chartArea12);
             this.chart_Pressure.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Name = "Legend1";
-            legend3.Position.Auto = false;
-            legend3.Position.Height = 4.828974F;
-            legend3.Position.Width = 12.22651F;
-            legend3.Position.X = 84.77349F;
-            legend3.Position.Y = 3F;
-            this.chart_Pressure.Legends.Add(legend3);
+            legend12.Name = "Legend1";
+            legend12.Position.Auto = false;
+            legend12.Position.Height = 4.828974F;
+            legend12.Position.Width = 12.22651F;
+            legend12.Position.X = 84.77349F;
+            legend12.Position.Y = 3F;
+            this.chart_Pressure.Legends.Add(legend12);
             this.chart_Pressure.Location = new System.Drawing.Point(2, 2);
             this.chart_Pressure.Margin = new System.Windows.Forms.Padding(0);
             this.chart_Pressure.Name = "chart_Pressure";
-            series3.BorderColor = System.Drawing.SystemColors.Control;
-            series3.BorderWidth = 2;
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series3.Color = System.Drawing.Color.Red;
-            series3.LabelBackColor = System.Drawing.SystemColors.Control;
-            series3.Legend = "Legend1";
-            series3.Name = "Pressure";
-            this.chart_Pressure.Series.Add(series3);
+            series12.BorderColor = System.Drawing.SystemColors.Control;
+            series12.BorderWidth = 2;
+            series12.ChartArea = "ChartArea1";
+            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series12.Color = System.Drawing.Color.Red;
+            series12.LabelBackColor = System.Drawing.SystemColors.Control;
+            series12.Legend = "Legend1";
+            series12.Name = "Pressure";
+            this.chart_Pressure.Series.Add(series12);
             this.chart_Pressure.Size = new System.Drawing.Size(983, 336);
             this.chart_Pressure.TabIndex = 2;
             this.chart_Pressure.Text = "chart2";
@@ -635,27 +635,27 @@ namespace SpaceLane
             // 
             // chart_Temperature
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart_Temperature.ChartAreas.Add(chartArea4);
+            chartArea13.Name = "ChartArea1";
+            this.chart_Temperature.ChartAreas.Add(chartArea13);
             this.chart_Temperature.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Name = "Legend1";
-            legend4.Position.Auto = false;
-            legend4.Position.Height = 4.828974F;
-            legend4.Position.Width = 14.67181F;
-            legend4.Position.X = 82.32819F;
-            legend4.Position.Y = 3F;
-            this.chart_Temperature.Legends.Add(legend4);
+            legend13.Name = "Legend1";
+            legend13.Position.Auto = false;
+            legend13.Position.Height = 4.828974F;
+            legend13.Position.Width = 14.67181F;
+            legend13.Position.X = 82.32819F;
+            legend13.Position.Y = 3F;
+            this.chart_Temperature.Legends.Add(legend13);
             this.chart_Temperature.Location = new System.Drawing.Point(2, 2);
             this.chart_Temperature.Margin = new System.Windows.Forms.Padding(0);
             this.chart_Temperature.Name = "chart_Temperature";
-            series4.BorderColor = System.Drawing.SystemColors.Control;
-            series4.BorderWidth = 2;
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series4.LabelBackColor = System.Drawing.SystemColors.Control;
-            series4.Legend = "Legend1";
-            series4.Name = "Temperature";
-            this.chart_Temperature.Series.Add(series4);
+            series13.BorderColor = System.Drawing.SystemColors.Control;
+            series13.BorderWidth = 2;
+            series13.ChartArea = "ChartArea1";
+            series13.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series13.LabelBackColor = System.Drawing.SystemColors.Control;
+            series13.Legend = "Legend1";
+            series13.Name = "Temperature";
+            this.chart_Temperature.Series.Add(series13);
             this.chart_Temperature.Size = new System.Drawing.Size(983, 336);
             this.chart_Temperature.TabIndex = 1;
             this.chart_Temperature.Text = "chart1";
@@ -673,27 +673,27 @@ namespace SpaceLane
             // 
             // chart_Humidity
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chart_Humidity.ChartAreas.Add(chartArea5);
+            chartArea14.Name = "ChartArea1";
+            this.chart_Humidity.ChartAreas.Add(chartArea14);
             this.chart_Humidity.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend5.Name = "Legend1";
-            legend5.Position.Auto = false;
-            legend5.Position.Height = 4.790419F;
-            legend5.Position.Width = 12.03585F;
-            legend5.Position.X = 84.96415F;
-            legend5.Position.Y = 3F;
-            this.chart_Humidity.Legends.Add(legend5);
+            legend14.Name = "Legend1";
+            legend14.Position.Auto = false;
+            legend14.Position.Height = 4.790419F;
+            legend14.Position.Width = 12.03585F;
+            legend14.Position.X = 84.96415F;
+            legend14.Position.Y = 3F;
+            this.chart_Humidity.Legends.Add(legend14);
             this.chart_Humidity.Location = new System.Drawing.Point(0, 0);
             this.chart_Humidity.Margin = new System.Windows.Forms.Padding(0);
             this.chart_Humidity.Name = "chart_Humidity";
-            series5.BorderColor = System.Drawing.SystemColors.Control;
-            series5.BorderWidth = 2;
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series5.LabelBackColor = System.Drawing.SystemColors.Control;
-            series5.Legend = "Legend1";
-            series5.Name = "Humidity";
-            this.chart_Humidity.Series.Add(series5);
+            series14.BorderColor = System.Drawing.SystemColors.Control;
+            series14.BorderWidth = 2;
+            series14.ChartArea = "ChartArea1";
+            series14.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series14.LabelBackColor = System.Drawing.SystemColors.Control;
+            series14.Legend = "Legend1";
+            series14.Name = "Humidity";
+            this.chart_Humidity.Series.Add(series14);
             this.chart_Humidity.Size = new System.Drawing.Size(987, 340);
             this.chart_Humidity.TabIndex = 2;
             this.chart_Humidity.Text = "chart1";
@@ -713,27 +713,27 @@ namespace SpaceLane
             // 
             // chart_Gas
             // 
-            chartArea6.Name = "ChartArea1";
-            this.chart_Gas.ChartAreas.Add(chartArea6);
+            chartArea15.Name = "ChartArea1";
+            this.chart_Gas.ChartAreas.Add(chartArea15);
             this.chart_Gas.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend6.Name = "Legend1";
-            legend6.Position.Auto = false;
-            legend6.Position.Height = 4.790419F;
-            legend6.Position.Width = 9.090909F;
-            legend6.Position.X = 87.90909F;
-            legend6.Position.Y = 3F;
-            this.chart_Gas.Legends.Add(legend6);
+            legend15.Name = "Legend1";
+            legend15.Position.Auto = false;
+            legend15.Position.Height = 4.790419F;
+            legend15.Position.Width = 9.090909F;
+            legend15.Position.X = 87.90909F;
+            legend15.Position.Y = 3F;
+            this.chart_Gas.Legends.Add(legend15);
             this.chart_Gas.Location = new System.Drawing.Point(0, 0);
             this.chart_Gas.Margin = new System.Windows.Forms.Padding(0);
             this.chart_Gas.Name = "chart_Gas";
-            series6.BorderColor = System.Drawing.SystemColors.Control;
-            series6.BorderWidth = 2;
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series6.LabelBackColor = System.Drawing.SystemColors.Control;
-            series6.Legend = "Legend1";
-            series6.Name = "Gas";
-            this.chart_Gas.Series.Add(series6);
+            series15.BorderColor = System.Drawing.SystemColors.Control;
+            series15.BorderWidth = 2;
+            series15.ChartArea = "ChartArea1";
+            series15.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series15.LabelBackColor = System.Drawing.SystemColors.Control;
+            series15.Legend = "Legend1";
+            series15.Name = "Gas";
+            this.chart_Gas.Series.Add(series15);
             this.chart_Gas.Size = new System.Drawing.Size(987, 340);
             this.chart_Gas.TabIndex = 2;
             this.chart_Gas.Text = "chart1";
@@ -753,22 +753,22 @@ namespace SpaceLane
             // 
             // chart_CO2
             // 
-            chartArea7.Name = "ChartArea1";
-            this.chart_CO2.ChartAreas.Add(chartArea7);
+            chartArea16.Name = "ChartArea1";
+            this.chart_CO2.ChartAreas.Add(chartArea16);
             this.chart_CO2.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend7.Name = "Legend1";
-            this.chart_CO2.Legends.Add(legend7);
+            legend16.Name = "Legend1";
+            this.chart_CO2.Legends.Add(legend16);
             this.chart_CO2.Location = new System.Drawing.Point(0, 0);
             this.chart_CO2.Margin = new System.Windows.Forms.Padding(0);
             this.chart_CO2.Name = "chart_CO2";
-            series7.BorderColor = System.Drawing.SystemColors.Control;
-            series7.BorderWidth = 2;
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series7.LabelBackColor = System.Drawing.SystemColors.Control;
-            series7.Legend = "Legend1";
-            series7.Name = "CO2";
-            this.chart_CO2.Series.Add(series7);
+            series16.BorderColor = System.Drawing.SystemColors.Control;
+            series16.BorderWidth = 2;
+            series16.ChartArea = "ChartArea1";
+            series16.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series16.LabelBackColor = System.Drawing.SystemColors.Control;
+            series16.Legend = "Legend1";
+            series16.Name = "CO2";
+            this.chart_CO2.Series.Add(series16);
             this.chart_CO2.Size = new System.Drawing.Size(987, 340);
             this.chart_CO2.TabIndex = 2;
             this.chart_CO2.Text = "chart1";
@@ -785,19 +785,19 @@ namespace SpaceLane
             // 
             // chart_TVOC
             // 
-            chartArea8.Name = "ChartArea1";
-            this.chart_TVOC.ChartAreas.Add(chartArea8);
+            chartArea17.Name = "ChartArea1";
+            this.chart_TVOC.ChartAreas.Add(chartArea17);
             this.chart_TVOC.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend8.Name = "Legend1";
-            this.chart_TVOC.Legends.Add(legend8);
+            legend17.Name = "Legend1";
+            this.chart_TVOC.Legends.Add(legend17);
             this.chart_TVOC.Location = new System.Drawing.Point(0, 0);
             this.chart_TVOC.Name = "chart_TVOC";
-            series8.BorderWidth = 2;
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series8.Legend = "Legend1";
-            series8.Name = "TVOC";
-            this.chart_TVOC.Series.Add(series8);
+            series17.BorderWidth = 2;
+            series17.ChartArea = "ChartArea1";
+            series17.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series17.Legend = "Legend1";
+            series17.Name = "TVOC";
+            this.chart_TVOC.Series.Add(series17);
             this.chart_TVOC.Size = new System.Drawing.Size(987, 340);
             this.chart_TVOC.TabIndex = 0;
             this.chart_TVOC.Text = "chartUVB";
@@ -814,19 +814,19 @@ namespace SpaceLane
             // 
             // chart_CO
             // 
-            chartArea9.Name = "ChartArea1";
-            this.chart_CO.ChartAreas.Add(chartArea9);
+            chartArea18.Name = "ChartArea1";
+            this.chart_CO.ChartAreas.Add(chartArea18);
             this.chart_CO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend9.Name = "Legend1";
-            this.chart_CO.Legends.Add(legend9);
+            legend18.Name = "Legend1";
+            this.chart_CO.Legends.Add(legend18);
             this.chart_CO.Location = new System.Drawing.Point(0, 0);
             this.chart_CO.Name = "chart_CO";
-            series9.BorderWidth = 2;
-            series9.ChartArea = "ChartArea1";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series9.Legend = "Legend1";
-            series9.Name = "CO";
-            this.chart_CO.Series.Add(series9);
+            series18.BorderWidth = 2;
+            series18.ChartArea = "ChartArea1";
+            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series18.Legend = "Legend1";
+            series18.Name = "CO";
+            this.chart_CO.Series.Add(series18);
             this.chart_CO.Size = new System.Drawing.Size(987, 340);
             this.chart_CO.TabIndex = 0;
             this.chart_CO.Text = "chartUV Index";
@@ -903,9 +903,9 @@ namespace SpaceLane
             // 
             // buttonPopupData
             // 
-            this.buttonPopupData.Location = new System.Drawing.Point(258, 323);
+            this.buttonPopupData.Location = new System.Drawing.Point(252, 323);
             this.buttonPopupData.Name = "buttonPopupData";
-            this.buttonPopupData.Size = new System.Drawing.Size(111, 23);
+            this.buttonPopupData.Size = new System.Drawing.Size(111, 26);
             this.buttonPopupData.TabIndex = 173;
             this.buttonPopupData.Text = "Analyzed Data";
             this.buttonPopupData.UseVisualStyleBackColor = true;
@@ -917,10 +917,9 @@ namespace SpaceLane
             this.label3.Location = new System.Drawing.Point(10, 319);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(239, 30);
+            this.label3.Size = new System.Drawing.Size(228, 30);
             this.label3.TabIndex = 172;
-            this.label3.Text = "Access a detailed summary of greatest gas\r\nconcentrations necessary for firefight" +
-    "ers:";
+            this.label3.Text = "Access a detailed summary of maximum\r\ngas concentrations and warning lights:";
             // 
             // tbCO
             // 
