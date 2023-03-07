@@ -45,6 +45,10 @@ namespace SpaceLane
 
         List<DataPack> dpList = new List<DataPack>();
 
+        public float fGreatCO2 = -10;
+        public float fGreatTVOC = -10;
+        public float fGreatCO = -10;
+
         #endregion
 
         #region Delegates
@@ -126,6 +130,7 @@ namespace SpaceLane
             mapControl.OnMapZoomChanged += new MapZoomChanged(mapControl_OnMapZoomChanged);
             // mapControl.MouseLeftButtonDown += new MouseButtonEventHandler(mapControl_MouseLeftButtonDown);
         }
+
 
         private void formMain_V2_Shown(object sender, EventArgs e)
         {
@@ -964,12 +969,15 @@ namespace SpaceLane
             tbVelocity.Text = String.Format("{0:0.##}", dp.Velocity);
             tbLattitude.Text = dp.Latitude.ToString();
             tbLongitude.Text = dp.Longitude.ToString();
+
+
             tbCO2.Text = dp.CO2.ToString();
             tbTVOC.Text = dp.TVOC.ToString();
             tbCO.Text = dp.CO.ToString();
 
-
-
+            CalculateAndShowGreatValue(dp.CO2, dp.TVOC, dp.CO);
+            
+            
 
 
             /*
@@ -1200,6 +1208,22 @@ namespace SpaceLane
             }
         }
 
+        private void CalculateAndShowGreatValue(float cO2, float tVOC, float cO)
+        {
+            if (cO2 > fGreatCO2)
+                fGreatCO2 = cO2;
+
+            if (tVOC > fGreatTVOC)
+                fGreatTVOC = tVOC;
+
+            if (cO > fGreatCO)
+                fGreatCO = cO;
+
+
+            tbCO2Greatest.Text = fGreatCO2.ToString();
+            tbTVOCGreatest.Text = fGreatTVOC.ToString();
+            tbCOGreatest.Text = fGreatCO.ToString();
+        }
 
         private static Color HeatMapColor(decimal value, decimal min, decimal max)
         {
@@ -1666,15 +1690,17 @@ namespace SpaceLane
         //    this.Close();
         //}
 
-        private void buttonPopupData_Click(object sender, EventArgs e)
-        {
-            FormPopupData FormPopupDataa = new FormPopupData();
-            FormPopupDataa.Show();
-        }
+
+        //For the analyzed data button, opens the popup form
+        //private void buttonPopupData_Click(object sender, EventArgs e)
+        //{
+            //FormPopupData FormPopupData = new FormPopupData();
+            //FormPopupData.Show();
+        //}
 
         private void formMain_V2_FormClosing(object sender, FormClosingEventArgs e)
         {
-            string message = "Please ensure data is saved before closing the program. Click 'Yes' to close the program.";
+            string message = "Are you sure you would like to exit? Please ensure data is saved before closing the program.";
             string title = "Are you sure you want to leave?";
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;
             DialogResult result = MessageBox.Show(message, title, buttons, MessageBoxIcon.Information);
@@ -1683,6 +1709,8 @@ namespace SpaceLane
                 e.Cancel = true;
             }
         }
+
+        
 
         private void ReadFileOld()
         {

@@ -32,9 +32,9 @@ namespace Contrail
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tbCO2Popup = new System.Windows.Forms.TextBox();
+            this.tbTVOCPopup = new System.Windows.Forms.TextBox();
+            this.tbCOPopup = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -64,26 +64,29 @@ namespace Contrail
             this.label3.TabIndex = 3;
             this.label3.Text = "Max Concentration of CO (ppm):";
             // 
-            // textBox1
+            // tbCO2Popup
             // 
-            this.textBox1.Location = new System.Drawing.Point(44, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 4;
+            this.tbCO2Popup.Location = new System.Drawing.Point(44, 51);
+            this.tbCO2Popup.Name = "tbCO2Popup";
+            this.tbCO2Popup.ReadOnly = true;
+            this.tbCO2Popup.Size = new System.Drawing.Size(100, 20);
+            this.tbCO2Popup.TabIndex = 4;
             // 
-            // textBox2
+            // tbTVOCPopup
             // 
-            this.textBox2.Location = new System.Drawing.Point(233, 49);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
+            this.tbTVOCPopup.Location = new System.Drawing.Point(233, 49);
+            this.tbTVOCPopup.Name = "tbTVOCPopup";
+            this.tbTVOCPopup.ReadOnly = true;
+            this.tbTVOCPopup.Size = new System.Drawing.Size(100, 20);
+            this.tbTVOCPopup.TabIndex = 5;
             // 
-            // textBox3
+            // tbCOPopup
             // 
-            this.textBox3.Location = new System.Drawing.Point(442, 49);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 6;
+            this.tbCOPopup.Location = new System.Drawing.Point(442, 49);
+            this.tbCOPopup.Name = "tbCOPopup";
+            this.tbCOPopup.ReadOnly = true;
+            this.tbCOPopup.Size = new System.Drawing.Size(100, 20);
+            this.tbCOPopup.TabIndex = 6;
             // 
             // FormPopupData
             // 
@@ -91,9 +94,9 @@ namespace Contrail
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.ClientSize = new System.Drawing.Size(606, 255);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbCOPopup);
+            this.Controls.Add(this.tbTVOCPopup);
+            this.Controls.Add(this.tbCO2Popup);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -110,8 +113,8 @@ namespace Contrail
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tbCO2Popup;
+        private System.Windows.Forms.TextBox tbTVOCPopup;
+        private System.Windows.Forms.TextBox tbCOPopup;
     }
 }

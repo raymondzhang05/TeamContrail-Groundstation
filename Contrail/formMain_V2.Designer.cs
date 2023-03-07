@@ -31,33 +31,33 @@ namespace SpaceLane
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formMain_V2));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea13 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend13 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea14 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend14 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea16 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend16 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea17 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend17 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea18 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend18 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
@@ -107,7 +107,9 @@ namespace SpaceLane
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.richTextBoxSerialMonitor = new System.Windows.Forms.RichTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.buttonPopupData = new System.Windows.Forms.Button();
+            this.tbCOGreatest = new System.Windows.Forms.TextBox();
+            this.tbTVOCGreatest = new System.Windows.Forms.TextBox();
+            this.tbCO2Greatest = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tbCO = new System.Windows.Forms.TextBox();
             this.tbTVOC = new System.Windows.Forms.TextBox();
@@ -132,6 +134,7 @@ namespace SpaceLane
             this.label12 = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.mapControl = new SpaceLane.MapControl();
             this.statusStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -176,10 +179,10 @@ namespace SpaceLane
             this.toolStripStatusLabel,
             this.toolStripProgressBar1});
             this.statusStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.statusStrip1.Location = new System.Drawing.Point(3, 680);
+            this.statusStrip1.Location = new System.Drawing.Point(3, 667);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 8, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(1372, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1414, 22);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -209,7 +212,7 @@ namespace SpaceLane
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1372, 86);
+            this.panel1.Size = new System.Drawing.Size(1414, 86);
             this.panel1.TabIndex = 1;
             // 
             // groupBox5
@@ -349,7 +352,7 @@ namespace SpaceLane
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1284, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(1326, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(88, 86);
@@ -466,8 +469,8 @@ namespace SpaceLane
             // 
             this.splitContainer1.Panel2.Controls.Add(this.groupBox2);
             this.splitContainer1.Panel2.Controls.Add(this.groupBox1);
-            this.splitContainer1.Size = new System.Drawing.Size(1372, 591);
-            this.splitContainer1.SplitterDistance = 995;
+            this.splitContainer1.Size = new System.Drawing.Size(1414, 578);
+            this.splitContainer1.SplitterDistance = 1047;
             this.splitContainer1.SplitterWidth = 2;
             this.splitContainer1.TabIndex = 2;
             // 
@@ -478,7 +481,7 @@ namespace SpaceLane
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(995, 369);
+            this.panel3.Size = new System.Drawing.Size(1047, 356);
             this.panel3.TabIndex = 3;
             // 
             // tabControlCharts
@@ -498,7 +501,7 @@ namespace SpaceLane
             this.tabControlCharts.Margin = new System.Windows.Forms.Padding(11, 2, 2, 2);
             this.tabControlCharts.Name = "tabControlCharts";
             this.tabControlCharts.SelectedIndex = 0;
-            this.tabControlCharts.Size = new System.Drawing.Size(995, 369);
+            this.tabControlCharts.Size = new System.Drawing.Size(1047, 356);
             this.tabControlCharts.TabIndex = 22;
             this.tabControlCharts.SelectedIndexChanged += new System.EventHandler(this.tabControlCharts_SelectedIndexChanged);
             // 
@@ -508,36 +511,36 @@ namespace SpaceLane
             this.tabPageAltitude.Location = new System.Drawing.Point(4, 25);
             this.tabPageAltitude.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageAltitude.Name = "tabPageAltitude";
-            this.tabPageAltitude.Size = new System.Drawing.Size(987, 340);
+            this.tabPageAltitude.Size = new System.Drawing.Size(1039, 327);
             this.tabPageAltitude.TabIndex = 2;
             this.tabPageAltitude.Text = "Altitude";
             this.tabPageAltitude.UseVisualStyleBackColor = true;
             // 
             // chart_Altitude
             // 
-            chartArea10.Name = "ChartArea1";
-            this.chart_Altitude.ChartAreas.Add(chartArea10);
+            chartArea1.Name = "ChartArea1";
+            this.chart_Altitude.ChartAreas.Add(chartArea1);
             this.chart_Altitude.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend10.Name = "Legend1";
-            legend10.Position.Auto = false;
-            legend10.Position.Height = 4.790419F;
-            legend10.Position.Width = 11.26761F;
-            legend10.Position.X = 85.73239F;
-            legend10.Position.Y = 3F;
-            this.chart_Altitude.Legends.Add(legend10);
+            legend1.Name = "Legend1";
+            legend1.Position.Auto = false;
+            legend1.Position.Height = 4.790419F;
+            legend1.Position.Width = 11.26761F;
+            legend1.Position.X = 85.73239F;
+            legend1.Position.Y = 3F;
+            this.chart_Altitude.Legends.Add(legend1);
             this.chart_Altitude.Location = new System.Drawing.Point(0, 0);
             this.chart_Altitude.Margin = new System.Windows.Forms.Padding(0);
             this.chart_Altitude.Name = "chart_Altitude";
             this.chart_Altitude.Padding = new System.Windows.Forms.Padding(0, 23, 0, 0);
-            series10.BorderColor = System.Drawing.SystemColors.Control;
-            series10.BorderWidth = 2;
-            series10.ChartArea = "ChartArea1";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series10.LabelBackColor = System.Drawing.SystemColors.Control;
-            series10.Legend = "Legend1";
-            series10.Name = "Altitude";
-            this.chart_Altitude.Series.Add(series10);
-            this.chart_Altitude.Size = new System.Drawing.Size(987, 340);
+            series1.BorderColor = System.Drawing.SystemColors.Control;
+            series1.BorderWidth = 2;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.LabelBackColor = System.Drawing.SystemColors.Control;
+            series1.Legend = "Legend1";
+            series1.Name = "Altitude";
+            this.chart_Altitude.Series.Add(series1);
+            this.chart_Altitude.Size = new System.Drawing.Size(1039, 327);
             this.chart_Altitude.TabIndex = 2;
             this.chart_Altitude.Text = "Altitude";
             // 
@@ -547,35 +550,35 @@ namespace SpaceLane
             this.tabPageVelocity.Location = new System.Drawing.Point(4, 25);
             this.tabPageVelocity.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageVelocity.Name = "tabPageVelocity";
-            this.tabPageVelocity.Size = new System.Drawing.Size(987, 340);
+            this.tabPageVelocity.Size = new System.Drawing.Size(1039, 327);
             this.tabPageVelocity.TabIndex = 3;
             this.tabPageVelocity.Text = "Velocity";
             this.tabPageVelocity.UseVisualStyleBackColor = true;
             // 
             // chart_Velocity
             // 
-            chartArea11.Name = "ChartArea1";
-            this.chart_Velocity.ChartAreas.Add(chartArea11);
+            chartArea2.Name = "ChartArea1";
+            this.chart_Velocity.ChartAreas.Add(chartArea2);
             this.chart_Velocity.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend11.Name = "Legend1";
-            legend11.Position.Auto = false;
-            legend11.Position.Height = 4.790419F;
-            legend11.Position.Width = 11.52369F;
-            legend11.Position.X = 85.47631F;
-            legend11.Position.Y = 3F;
-            this.chart_Velocity.Legends.Add(legend11);
+            legend2.Name = "Legend1";
+            legend2.Position.Auto = false;
+            legend2.Position.Height = 4.790419F;
+            legend2.Position.Width = 11.52369F;
+            legend2.Position.X = 85.47631F;
+            legend2.Position.Y = 3F;
+            this.chart_Velocity.Legends.Add(legend2);
             this.chart_Velocity.Location = new System.Drawing.Point(0, 0);
             this.chart_Velocity.Margin = new System.Windows.Forms.Padding(0);
             this.chart_Velocity.Name = "chart_Velocity";
-            series11.BorderColor = System.Drawing.SystemColors.Control;
-            series11.BorderWidth = 2;
-            series11.ChartArea = "ChartArea1";
-            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series11.LabelBackColor = System.Drawing.SystemColors.Control;
-            series11.Legend = "Legend1";
-            series11.Name = "Velocity";
-            this.chart_Velocity.Series.Add(series11);
-            this.chart_Velocity.Size = new System.Drawing.Size(987, 340);
+            series2.BorderColor = System.Drawing.SystemColors.Control;
+            series2.BorderWidth = 2;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.LabelBackColor = System.Drawing.SystemColors.Control;
+            series2.Legend = "Legend1";
+            series2.Name = "Velocity";
+            this.chart_Velocity.Series.Add(series2);
+            this.chart_Velocity.Size = new System.Drawing.Size(1039, 327);
             this.chart_Velocity.TabIndex = 2;
             this.chart_Velocity.Text = "chart1";
             this.chart_Velocity.MouseEnter += new System.EventHandler(this.chart_Velocity_MouseEnter);
@@ -588,36 +591,36 @@ namespace SpaceLane
             this.tabPagePressure.Margin = new System.Windows.Forms.Padding(2);
             this.tabPagePressure.Name = "tabPagePressure";
             this.tabPagePressure.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPagePressure.Size = new System.Drawing.Size(987, 340);
+            this.tabPagePressure.Size = new System.Drawing.Size(1039, 327);
             this.tabPagePressure.TabIndex = 1;
             this.tabPagePressure.Text = "Pressure";
             this.tabPagePressure.UseVisualStyleBackColor = true;
             // 
             // chart_Pressure
             // 
-            chartArea12.Name = "ChartArea1";
-            this.chart_Pressure.ChartAreas.Add(chartArea12);
+            chartArea3.Name = "ChartArea1";
+            this.chart_Pressure.ChartAreas.Add(chartArea3);
             this.chart_Pressure.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend12.Name = "Legend1";
-            legend12.Position.Auto = false;
-            legend12.Position.Height = 4.828974F;
-            legend12.Position.Width = 12.22651F;
-            legend12.Position.X = 84.77349F;
-            legend12.Position.Y = 3F;
-            this.chart_Pressure.Legends.Add(legend12);
+            legend3.Name = "Legend1";
+            legend3.Position.Auto = false;
+            legend3.Position.Height = 4.828974F;
+            legend3.Position.Width = 12.22651F;
+            legend3.Position.X = 84.77349F;
+            legend3.Position.Y = 3F;
+            this.chart_Pressure.Legends.Add(legend3);
             this.chart_Pressure.Location = new System.Drawing.Point(2, 2);
             this.chart_Pressure.Margin = new System.Windows.Forms.Padding(0);
             this.chart_Pressure.Name = "chart_Pressure";
-            series12.BorderColor = System.Drawing.SystemColors.Control;
-            series12.BorderWidth = 2;
-            series12.ChartArea = "ChartArea1";
-            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series12.Color = System.Drawing.Color.Red;
-            series12.LabelBackColor = System.Drawing.SystemColors.Control;
-            series12.Legend = "Legend1";
-            series12.Name = "Pressure";
-            this.chart_Pressure.Series.Add(series12);
-            this.chart_Pressure.Size = new System.Drawing.Size(983, 336);
+            series3.BorderColor = System.Drawing.SystemColors.Control;
+            series3.BorderWidth = 2;
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Color = System.Drawing.Color.Red;
+            series3.LabelBackColor = System.Drawing.SystemColors.Control;
+            series3.Legend = "Legend1";
+            series3.Name = "Pressure";
+            this.chart_Pressure.Series.Add(series3);
+            this.chart_Pressure.Size = new System.Drawing.Size(1035, 323);
             this.chart_Pressure.TabIndex = 2;
             this.chart_Pressure.Text = "chart2";
             // 
@@ -628,35 +631,35 @@ namespace SpaceLane
             this.tabPageTemperature.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageTemperature.Name = "tabPageTemperature";
             this.tabPageTemperature.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPageTemperature.Size = new System.Drawing.Size(987, 340);
+            this.tabPageTemperature.Size = new System.Drawing.Size(1039, 327);
             this.tabPageTemperature.TabIndex = 0;
             this.tabPageTemperature.Text = "Temperature";
             this.tabPageTemperature.UseVisualStyleBackColor = true;
             // 
             // chart_Temperature
             // 
-            chartArea13.Name = "ChartArea1";
-            this.chart_Temperature.ChartAreas.Add(chartArea13);
+            chartArea4.Name = "ChartArea1";
+            this.chart_Temperature.ChartAreas.Add(chartArea4);
             this.chart_Temperature.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend13.Name = "Legend1";
-            legend13.Position.Auto = false;
-            legend13.Position.Height = 4.828974F;
-            legend13.Position.Width = 14.67181F;
-            legend13.Position.X = 82.32819F;
-            legend13.Position.Y = 3F;
-            this.chart_Temperature.Legends.Add(legend13);
+            legend4.Name = "Legend1";
+            legend4.Position.Auto = false;
+            legend4.Position.Height = 4.828974F;
+            legend4.Position.Width = 14.67181F;
+            legend4.Position.X = 82.32819F;
+            legend4.Position.Y = 3F;
+            this.chart_Temperature.Legends.Add(legend4);
             this.chart_Temperature.Location = new System.Drawing.Point(2, 2);
             this.chart_Temperature.Margin = new System.Windows.Forms.Padding(0);
             this.chart_Temperature.Name = "chart_Temperature";
-            series13.BorderColor = System.Drawing.SystemColors.Control;
-            series13.BorderWidth = 2;
-            series13.ChartArea = "ChartArea1";
-            series13.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series13.LabelBackColor = System.Drawing.SystemColors.Control;
-            series13.Legend = "Legend1";
-            series13.Name = "Temperature";
-            this.chart_Temperature.Series.Add(series13);
-            this.chart_Temperature.Size = new System.Drawing.Size(983, 336);
+            series4.BorderColor = System.Drawing.SystemColors.Control;
+            series4.BorderWidth = 2;
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series4.LabelBackColor = System.Drawing.SystemColors.Control;
+            series4.Legend = "Legend1";
+            series4.Name = "Temperature";
+            this.chart_Temperature.Series.Add(series4);
+            this.chart_Temperature.Size = new System.Drawing.Size(1035, 323);
             this.chart_Temperature.TabIndex = 1;
             this.chart_Temperature.Text = "chart1";
             // 
@@ -666,35 +669,35 @@ namespace SpaceLane
             this.tabPageHumidity.Location = new System.Drawing.Point(4, 25);
             this.tabPageHumidity.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageHumidity.Name = "tabPageHumidity";
-            this.tabPageHumidity.Size = new System.Drawing.Size(987, 340);
+            this.tabPageHumidity.Size = new System.Drawing.Size(1039, 327);
             this.tabPageHumidity.TabIndex = 4;
             this.tabPageHumidity.Text = "Humidity";
             this.tabPageHumidity.UseVisualStyleBackColor = true;
             // 
             // chart_Humidity
             // 
-            chartArea14.Name = "ChartArea1";
-            this.chart_Humidity.ChartAreas.Add(chartArea14);
+            chartArea5.Name = "ChartArea1";
+            this.chart_Humidity.ChartAreas.Add(chartArea5);
             this.chart_Humidity.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend14.Name = "Legend1";
-            legend14.Position.Auto = false;
-            legend14.Position.Height = 4.790419F;
-            legend14.Position.Width = 12.03585F;
-            legend14.Position.X = 84.96415F;
-            legend14.Position.Y = 3F;
-            this.chart_Humidity.Legends.Add(legend14);
+            legend5.Name = "Legend1";
+            legend5.Position.Auto = false;
+            legend5.Position.Height = 4.790419F;
+            legend5.Position.Width = 12.03585F;
+            legend5.Position.X = 84.96415F;
+            legend5.Position.Y = 3F;
+            this.chart_Humidity.Legends.Add(legend5);
             this.chart_Humidity.Location = new System.Drawing.Point(0, 0);
             this.chart_Humidity.Margin = new System.Windows.Forms.Padding(0);
             this.chart_Humidity.Name = "chart_Humidity";
-            series14.BorderColor = System.Drawing.SystemColors.Control;
-            series14.BorderWidth = 2;
-            series14.ChartArea = "ChartArea1";
-            series14.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series14.LabelBackColor = System.Drawing.SystemColors.Control;
-            series14.Legend = "Legend1";
-            series14.Name = "Humidity";
-            this.chart_Humidity.Series.Add(series14);
-            this.chart_Humidity.Size = new System.Drawing.Size(987, 340);
+            series5.BorderColor = System.Drawing.SystemColors.Control;
+            series5.BorderWidth = 2;
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series5.LabelBackColor = System.Drawing.SystemColors.Control;
+            series5.Legend = "Legend1";
+            series5.Name = "Humidity";
+            this.chart_Humidity.Series.Add(series5);
+            this.chart_Humidity.Size = new System.Drawing.Size(1039, 327);
             this.chart_Humidity.TabIndex = 2;
             this.chart_Humidity.Text = "chart1";
             this.chart_Humidity.MouseEnter += new System.EventHandler(this.chart_Humidity_MouseEnter);
@@ -706,35 +709,35 @@ namespace SpaceLane
             this.tabPageGas.Location = new System.Drawing.Point(4, 25);
             this.tabPageGas.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageGas.Name = "tabPageGas";
-            this.tabPageGas.Size = new System.Drawing.Size(987, 340);
+            this.tabPageGas.Size = new System.Drawing.Size(1039, 327);
             this.tabPageGas.TabIndex = 5;
             this.tabPageGas.Text = "Gas";
             this.tabPageGas.UseVisualStyleBackColor = true;
             // 
             // chart_Gas
             // 
-            chartArea15.Name = "ChartArea1";
-            this.chart_Gas.ChartAreas.Add(chartArea15);
+            chartArea6.Name = "ChartArea1";
+            this.chart_Gas.ChartAreas.Add(chartArea6);
             this.chart_Gas.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend15.Name = "Legend1";
-            legend15.Position.Auto = false;
-            legend15.Position.Height = 4.790419F;
-            legend15.Position.Width = 9.090909F;
-            legend15.Position.X = 87.90909F;
-            legend15.Position.Y = 3F;
-            this.chart_Gas.Legends.Add(legend15);
+            legend6.Name = "Legend1";
+            legend6.Position.Auto = false;
+            legend6.Position.Height = 4.790419F;
+            legend6.Position.Width = 9.090909F;
+            legend6.Position.X = 87.90909F;
+            legend6.Position.Y = 3F;
+            this.chart_Gas.Legends.Add(legend6);
             this.chart_Gas.Location = new System.Drawing.Point(0, 0);
             this.chart_Gas.Margin = new System.Windows.Forms.Padding(0);
             this.chart_Gas.Name = "chart_Gas";
-            series15.BorderColor = System.Drawing.SystemColors.Control;
-            series15.BorderWidth = 2;
-            series15.ChartArea = "ChartArea1";
-            series15.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series15.LabelBackColor = System.Drawing.SystemColors.Control;
-            series15.Legend = "Legend1";
-            series15.Name = "Gas";
-            this.chart_Gas.Series.Add(series15);
-            this.chart_Gas.Size = new System.Drawing.Size(987, 340);
+            series6.BorderColor = System.Drawing.SystemColors.Control;
+            series6.BorderWidth = 2;
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series6.LabelBackColor = System.Drawing.SystemColors.Control;
+            series6.Legend = "Legend1";
+            series6.Name = "Gas";
+            this.chart_Gas.Series.Add(series6);
+            this.chart_Gas.Size = new System.Drawing.Size(1039, 327);
             this.chart_Gas.TabIndex = 2;
             this.chart_Gas.Text = "chart1";
             this.chart_Gas.MouseEnter += new System.EventHandler(this.chart_Gas_MouseEnter);
@@ -746,30 +749,30 @@ namespace SpaceLane
             this.tabPageCO2.Location = new System.Drawing.Point(4, 25);
             this.tabPageCO2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageCO2.Name = "tabPageCO2";
-            this.tabPageCO2.Size = new System.Drawing.Size(987, 340);
+            this.tabPageCO2.Size = new System.Drawing.Size(1039, 327);
             this.tabPageCO2.TabIndex = 8;
             this.tabPageCO2.Text = "CO2";
             this.tabPageCO2.UseVisualStyleBackColor = true;
             // 
             // chart_CO2
             // 
-            chartArea16.Name = "ChartArea1";
-            this.chart_CO2.ChartAreas.Add(chartArea16);
+            chartArea7.Name = "ChartArea1";
+            this.chart_CO2.ChartAreas.Add(chartArea7);
             this.chart_CO2.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend16.Name = "Legend1";
-            this.chart_CO2.Legends.Add(legend16);
+            legend7.Name = "Legend1";
+            this.chart_CO2.Legends.Add(legend7);
             this.chart_CO2.Location = new System.Drawing.Point(0, 0);
             this.chart_CO2.Margin = new System.Windows.Forms.Padding(0);
             this.chart_CO2.Name = "chart_CO2";
-            series16.BorderColor = System.Drawing.SystemColors.Control;
-            series16.BorderWidth = 2;
-            series16.ChartArea = "ChartArea1";
-            series16.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series16.LabelBackColor = System.Drawing.SystemColors.Control;
-            series16.Legend = "Legend1";
-            series16.Name = "CO2";
-            this.chart_CO2.Series.Add(series16);
-            this.chart_CO2.Size = new System.Drawing.Size(987, 340);
+            series7.BorderColor = System.Drawing.SystemColors.Control;
+            series7.BorderWidth = 2;
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series7.LabelBackColor = System.Drawing.SystemColors.Control;
+            series7.Legend = "Legend1";
+            series7.Name = "CO2";
+            this.chart_CO2.Series.Add(series7);
+            this.chart_CO2.Size = new System.Drawing.Size(1039, 327);
             this.chart_CO2.TabIndex = 2;
             this.chart_CO2.Text = "chart1";
             // 
@@ -778,27 +781,27 @@ namespace SpaceLane
             this.tabPageTVOC.Controls.Add(this.chart_TVOC);
             this.tabPageTVOC.Location = new System.Drawing.Point(4, 25);
             this.tabPageTVOC.Name = "tabPageTVOC";
-            this.tabPageTVOC.Size = new System.Drawing.Size(987, 340);
+            this.tabPageTVOC.Size = new System.Drawing.Size(1039, 327);
             this.tabPageTVOC.TabIndex = 10;
             this.tabPageTVOC.Text = "TVOC";
             this.tabPageTVOC.UseVisualStyleBackColor = true;
             // 
             // chart_TVOC
             // 
-            chartArea17.Name = "ChartArea1";
-            this.chart_TVOC.ChartAreas.Add(chartArea17);
+            chartArea8.Name = "ChartArea1";
+            this.chart_TVOC.ChartAreas.Add(chartArea8);
             this.chart_TVOC.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend17.Name = "Legend1";
-            this.chart_TVOC.Legends.Add(legend17);
+            legend8.Name = "Legend1";
+            this.chart_TVOC.Legends.Add(legend8);
             this.chart_TVOC.Location = new System.Drawing.Point(0, 0);
             this.chart_TVOC.Name = "chart_TVOC";
-            series17.BorderWidth = 2;
-            series17.ChartArea = "ChartArea1";
-            series17.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series17.Legend = "Legend1";
-            series17.Name = "TVOC";
-            this.chart_TVOC.Series.Add(series17);
-            this.chart_TVOC.Size = new System.Drawing.Size(987, 340);
+            series8.BorderWidth = 2;
+            series8.ChartArea = "ChartArea1";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series8.Legend = "Legend1";
+            series8.Name = "TVOC";
+            this.chart_TVOC.Series.Add(series8);
+            this.chart_TVOC.Size = new System.Drawing.Size(1039, 327);
             this.chart_TVOC.TabIndex = 0;
             this.chart_TVOC.Text = "chartUVB";
             // 
@@ -807,27 +810,27 @@ namespace SpaceLane
             this.tabPageCO.Controls.Add(this.chart_CO);
             this.tabPageCO.Location = new System.Drawing.Point(4, 25);
             this.tabPageCO.Name = "tabPageCO";
-            this.tabPageCO.Size = new System.Drawing.Size(987, 340);
+            this.tabPageCO.Size = new System.Drawing.Size(1039, 327);
             this.tabPageCO.TabIndex = 11;
             this.tabPageCO.Text = "CO";
             this.tabPageCO.UseVisualStyleBackColor = true;
             // 
             // chart_CO
             // 
-            chartArea18.Name = "ChartArea1";
-            this.chart_CO.ChartAreas.Add(chartArea18);
+            chartArea9.Name = "ChartArea1";
+            this.chart_CO.ChartAreas.Add(chartArea9);
             this.chart_CO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend18.Name = "Legend1";
-            this.chart_CO.Legends.Add(legend18);
+            legend9.Name = "Legend1";
+            this.chart_CO.Legends.Add(legend9);
             this.chart_CO.Location = new System.Drawing.Point(0, 0);
             this.chart_CO.Name = "chart_CO";
-            series18.BorderWidth = 2;
-            series18.ChartArea = "ChartArea1";
-            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series18.Legend = "Legend1";
-            series18.Name = "CO";
-            this.chart_CO.Series.Add(series18);
-            this.chart_CO.Size = new System.Drawing.Size(987, 340);
+            series9.BorderWidth = 2;
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series9.Legend = "Legend1";
+            series9.Name = "CO";
+            this.chart_CO.Series.Add(series9);
+            this.chart_CO.Size = new System.Drawing.Size(1039, 327);
             this.chart_CO.TabIndex = 0;
             this.chart_CO.Text = "chartUV Index";
             // 
@@ -835,10 +838,10 @@ namespace SpaceLane
             // 
             this.panel2.Controls.Add(this.mapControl);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 369);
+            this.panel2.Location = new System.Drawing.Point(0, 356);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(995, 222);
+            this.panel2.Size = new System.Drawing.Size(1047, 222);
             this.panel2.TabIndex = 23;
             // 
             // groupBox2
@@ -846,11 +849,11 @@ namespace SpaceLane
             this.groupBox2.Controls.Add(this.richTextBoxSerialMonitor);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(0, 365);
+            this.groupBox2.Location = new System.Drawing.Point(0, 396);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox2.Size = new System.Drawing.Size(375, 226);
+            this.groupBox2.Size = new System.Drawing.Size(365, 182);
             this.groupBox2.TabIndex = 123;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Log";
@@ -861,13 +864,15 @@ namespace SpaceLane
             this.richTextBoxSerialMonitor.Location = new System.Drawing.Point(3, 18);
             this.richTextBoxSerialMonitor.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBoxSerialMonitor.Name = "richTextBoxSerialMonitor";
-            this.richTextBoxSerialMonitor.Size = new System.Drawing.Size(369, 204);
+            this.richTextBoxSerialMonitor.Size = new System.Drawing.Size(359, 160);
             this.richTextBoxSerialMonitor.TabIndex = 23;
             this.richTextBoxSerialMonitor.Text = "";
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.buttonPopupData);
+            this.groupBox1.Controls.Add(this.tbCOGreatest);
+            this.groupBox1.Controls.Add(this.tbTVOCGreatest);
+            this.groupBox1.Controls.Add(this.tbCO2Greatest);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.tbCO);
             this.groupBox1.Controls.Add(this.tbTVOC);
@@ -896,34 +901,48 @@ namespace SpaceLane
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(375, 365);
+            this.groupBox1.Size = new System.Drawing.Size(365, 396);
             this.groupBox1.TabIndex = 122;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Processed Monitor";
             // 
-            // buttonPopupData
+            // tbCOGreatest
             // 
-            this.buttonPopupData.Location = new System.Drawing.Point(252, 323);
-            this.buttonPopupData.Name = "buttonPopupData";
-            this.buttonPopupData.Size = new System.Drawing.Size(111, 26);
-            this.buttonPopupData.TabIndex = 173;
-            this.buttonPopupData.Text = "Analyzed Data";
-            this.buttonPopupData.UseVisualStyleBackColor = true;
-            this.buttonPopupData.Click += new System.EventHandler(this.buttonPopupData_Click);
+            this.tbCOGreatest.Location = new System.Drawing.Point(315, 281);
+            this.tbCOGreatest.Margin = new System.Windows.Forms.Padding(2);
+            this.tbCOGreatest.Name = "tbCOGreatest";
+            this.tbCOGreatest.Size = new System.Drawing.Size(61, 21);
+            this.tbCOGreatest.TabIndex = 175;
+            // 
+            // tbTVOCGreatest
+            // 
+            this.tbTVOCGreatest.Location = new System.Drawing.Point(253, 281);
+            this.tbTVOCGreatest.Margin = new System.Windows.Forms.Padding(2);
+            this.tbTVOCGreatest.Name = "tbTVOCGreatest";
+            this.tbTVOCGreatest.Size = new System.Drawing.Size(61, 21);
+            this.tbTVOCGreatest.TabIndex = 174;
+            // 
+            // tbCO2Greatest
+            // 
+            this.tbCO2Greatest.Location = new System.Drawing.Point(191, 281);
+            this.tbCO2Greatest.Margin = new System.Windows.Forms.Padding(2);
+            this.tbCO2Greatest.Name = "tbCO2Greatest";
+            this.tbCO2Greatest.Size = new System.Drawing.Size(61, 21);
+            this.tbCO2Greatest.TabIndex = 173;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 319);
+            this.label3.Location = new System.Drawing.Point(6, 284);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(228, 30);
+            this.label3.Size = new System.Drawing.Size(175, 15);
             this.label3.TabIndex = 172;
-            this.label3.Text = "Access a detailed summary of maximum\r\ngas concentrations and warning lights:";
+            this.label3.Text = "Concentrations Greatest Value:";
             // 
             // tbCO
             // 
-            this.tbCO.Location = new System.Drawing.Point(322, 252);
+            this.tbCO.Location = new System.Drawing.Point(316, 251);
             this.tbCO.Margin = new System.Windows.Forms.Padding(2);
             this.tbCO.Name = "tbCO";
             this.tbCO.Size = new System.Drawing.Size(60, 21);
@@ -931,7 +950,7 @@ namespace SpaceLane
             // 
             // tbTVOC
             // 
-            this.tbTVOC.Location = new System.Drawing.Point(259, 252);
+            this.tbTVOC.Location = new System.Drawing.Point(254, 251);
             this.tbTVOC.Margin = new System.Windows.Forms.Padding(2);
             this.tbTVOC.Name = "tbTVOC";
             this.tbTVOC.Size = new System.Drawing.Size(60, 21);
@@ -939,7 +958,7 @@ namespace SpaceLane
             // 
             // tbCO2
             // 
-            this.tbCO2.Location = new System.Drawing.Point(195, 252);
+            this.tbCO2.Location = new System.Drawing.Point(191, 251);
             this.tbCO2.Margin = new System.Windows.Forms.Padding(2);
             this.tbCO2.Name = "tbCO2";
             this.tbCO2.Size = new System.Drawing.Size(61, 21);
@@ -948,7 +967,7 @@ namespace SpaceLane
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(10, 255);
+            this.label19.Location = new System.Drawing.Point(6, 254);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(187, 15);
@@ -959,7 +978,7 @@ namespace SpaceLane
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(231, 87);
+            this.label9.Location = new System.Drawing.Point(222, 87);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(103, 18);
@@ -977,7 +996,7 @@ namespace SpaceLane
             // tbVelocity
             // 
             this.tbVelocity.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbVelocity.Location = new System.Drawing.Point(234, 107);
+            this.tbVelocity.Location = new System.Drawing.Point(225, 107);
             this.tbVelocity.Margin = new System.Windows.Forms.Padding(2);
             this.tbVelocity.Name = "tbVelocity";
             this.tbVelocity.Size = new System.Drawing.Size(142, 45);
@@ -987,7 +1006,7 @@ namespace SpaceLane
             // 
             // tbBMEPressure
             // 
-            this.tbBMEPressure.Location = new System.Drawing.Point(71, 178);
+            this.tbBMEPressure.Location = new System.Drawing.Point(68, 178);
             this.tbBMEPressure.Margin = new System.Windows.Forms.Padding(2);
             this.tbBMEPressure.Name = "tbBMEPressure";
             this.tbBMEPressure.Size = new System.Drawing.Size(70, 21);
@@ -1004,7 +1023,7 @@ namespace SpaceLane
             // tbAltitude
             // 
             this.tbAltitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbAltitude.Location = new System.Drawing.Point(13, 107);
+            this.tbAltitude.Location = new System.Drawing.Point(9, 107);
             this.tbAltitude.Margin = new System.Windows.Forms.Padding(2);
             this.tbAltitude.Name = "tbAltitude";
             this.tbAltitude.Size = new System.Drawing.Size(140, 45);
@@ -1014,7 +1033,7 @@ namespace SpaceLane
             // 
             // tbBMEVOCGas
             // 
-            this.tbBMEVOCGas.Location = new System.Drawing.Point(71, 216);
+            this.tbBMEVOCGas.Location = new System.Drawing.Point(68, 216);
             this.tbBMEVOCGas.Margin = new System.Windows.Forms.Padding(2);
             this.tbBMEVOCGas.Name = "tbBMEVOCGas";
             this.tbBMEVOCGas.Size = new System.Drawing.Size(70, 21);
@@ -1024,7 +1043,7 @@ namespace SpaceLane
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(10, 87);
+            this.label8.Location = new System.Drawing.Point(6, 87);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(198, 18);
@@ -1033,7 +1052,7 @@ namespace SpaceLane
             // 
             // label30
             // 
-            this.label30.Location = new System.Drawing.Point(10, 180);
+            this.label30.Location = new System.Drawing.Point(6, 178);
             this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(75, 19);
@@ -1051,7 +1070,7 @@ namespace SpaceLane
             // 
             // label28
             // 
-            this.label28.Location = new System.Drawing.Point(10, 219);
+            this.label28.Location = new System.Drawing.Point(6, 219);
             this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(65, 16);
@@ -1069,7 +1088,7 @@ namespace SpaceLane
             // 
             // tbLattitude
             // 
-            this.tbLattitude.Location = new System.Drawing.Point(101, 286);
+            this.tbLattitude.Location = new System.Drawing.Point(205, 363);
             this.tbLattitude.Margin = new System.Windows.Forms.Padding(2);
             this.tbLattitude.Name = "tbLattitude";
             this.tbLattitude.Size = new System.Drawing.Size(69, 21);
@@ -1077,7 +1096,7 @@ namespace SpaceLane
             // 
             // tbLongitude
             // 
-            this.tbLongitude.Location = new System.Drawing.Point(174, 286);
+            this.tbLongitude.Location = new System.Drawing.Point(281, 363);
             this.tbLongitude.Margin = new System.Windows.Forms.Padding(2);
             this.tbLongitude.Name = "tbLongitude";
             this.tbLongitude.Size = new System.Drawing.Size(69, 21);
@@ -1097,12 +1116,12 @@ namespace SpaceLane
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(10, 289);
+            this.label14.Location = new System.Drawing.Point(6, 366);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(76, 15);
+            this.label14.Size = new System.Drawing.Size(195, 15);
             this.label14.TabIndex = 128;
-            this.label14.Text = "Coordinates:";
+            this.label14.Text = "Coordinates (Lattitude, Longitude):";
             // 
             // label12
             // 
@@ -1126,6 +1145,11 @@ namespace SpaceLane
             this.imageList2.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
             this.imageList2.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
             // 
             // mapControl
             // 
@@ -1151,7 +1175,7 @@ namespace SpaceLane
             this.mapControl.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
             this.mapControl.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.mapControl.ShowTileGridLines = false;
-            this.mapControl.Size = new System.Drawing.Size(995, 222);
+            this.mapControl.Size = new System.Drawing.Size(1047, 222);
             this.mapControl.TabIndex = 0;
             this.mapControl.Zoom = 0D;
             this.mapControl.OnMapZoomChanged += new GMap.NET.MapZoomChanged(this.mapControl_OnMapZoomChanged);
@@ -1163,7 +1187,7 @@ namespace SpaceLane
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(1378, 705);
+            this.ClientSize = new System.Drawing.Size(1420, 692);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.statusStrip1);
@@ -1294,7 +1318,10 @@ namespace SpaceLane
         private System.Windows.Forms.TextBox tbTVOC;
         private System.Windows.Forms.TextBox tbCO2;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Button buttonPopupData;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.TextBox tbCOGreatest;
+        private System.Windows.Forms.TextBox tbTVOCGreatest;
+        private System.Windows.Forms.TextBox tbCO2Greatest;
     }
 }
